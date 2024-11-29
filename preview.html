@@ -2,6 +2,7 @@
 layout: default
 pagination:
   enabled: true
+  collection: 'preview'
 ---
 
 <div class="posts">
@@ -35,9 +36,9 @@ pagination:
       {% if page == paginator.page %}
         <span class="webjeda">{{ page }}</span>
       {% elsif page == 1 %}
-        <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+        <a href="{{ '/preview/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
       {% else %}
-        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+        <a href="{{ site.paginate_preview.permalink | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
       {% endif %}
     {% endfor %}
 
