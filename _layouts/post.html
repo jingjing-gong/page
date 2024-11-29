@@ -5,12 +5,12 @@ layout: default
 <head>
   {% if page.mathjax or site.mathjax %}
     <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        tex2jax: {
+      MathJax = {
+        tex: {
           inlineMath: [['$', '$'], ['\\(', '\\)']],
           processEscapes: true
         }
-      });
+      };
     </script>
     <script src="{{ site.mathjax.path }}" async></script>
   {% endif %}
