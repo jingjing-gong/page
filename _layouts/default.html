@@ -15,20 +15,20 @@
 
     {% if page.mathjax or site.mathjax %}
       <script type="text/x-mathjax-config">
-        MathJax = {
-          tex: {
+        MathJax.Hub.Config({
+          tex2jax: {
             inlineMath: [['$', '$'], ['\\(', '\\)']],
             displayMath: [['$$', '$$'], ['\\[', '\\]']],
-            processEscapes: true,
-            tags: 'all'  // Enable equation numbering
+            processEscapes: true
           },
-          options: {
-            renderActions: {
-              addMenu: [0, '', '']
-            }
+          TeX: {
+            equationNumbers: { autoNumber: "AMS" }
           }
-        };
-    </script>
+        });
+      </script>
+      <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML">
+      </script>
       <script src="{{ site.mathjax.path }}" async></script>
     {% endif %}
   </head>
