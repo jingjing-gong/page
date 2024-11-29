@@ -101,3 +101,7 @@ exclude:
   - README.md
   - CNAME
 
+collections:
+  preview:
+    output: true
+    permalink: /preview/:path/
