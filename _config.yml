@@ -76,9 +76,6 @@ kramdown:
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
-  math_engine: mathjax
-  math_engine_opts:
-    preview: false
 
 # Set the Sass partials directory, as we're using @imports
 sass:
@@ -114,19 +111,3 @@ mathjax:
   path: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
   config:
     tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
-
-katex:
-  math_engine: katex
-  katex_options:
-    displayMode: true
-    fleqn: false
-    throwOnError: false
-    errorColor: "#cc0000"
-    macros: {}
-    minRuleThickness: 0.05
-    maxSize: 10
-    maxExpand: 1000
-    strict: "warn"
-    trust: false
-    output: "htmlAndMathml"
-    autoNumber: "AMS"
