@@ -86,35 +86,13 @@ plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-mathjax
 
 include: ['_pages', '_preview']
 
-pagination:
-  enabled: true
-  per_page: 6
-  permalink: '/page/:num/'
-  title: ':title - page :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-  trail:
-    before: 2
-    after: 2
-
-  collections:
-    preview:
-      enabled: true
-      per_page: 6
-      permalink: '/preview/page/:num/'
-      title: ':title - page :num'
-      limit: 0
-      sort_field: 'date'
-      sort_reverse: true
-      trail:
-        before: 2
-        after: 2
+paginate: 6
+paginate_path: /page:num/
 
 # Exclude these files from your production _site
 exclude:
@@ -133,4 +111,3 @@ mathjax:
   path: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
   config:
     tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
-
