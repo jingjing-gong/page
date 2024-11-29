@@ -19,7 +19,13 @@
           tex: {
             inlineMath: [['$', '$'], ['\\(', '\\)']],
             displayMath: [['$$', '$$'], ['\\[', '\\]']],
-            processEscapes: true
+            processEscapes: true,
+            tags: 'all'  // Enable equation numbering
+          },
+          options: {
+            renderActions: {
+              addMenu: [0, '', '']
+            }
           }
         };
       </script>
