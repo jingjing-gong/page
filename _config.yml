@@ -105,3 +105,5 @@ collections:
   preview:
     output: true
     permalink: /preview/:path/
+    paginate: 6
+    paginate_path: /preview/page:num/
