@@ -90,8 +90,30 @@ plugins:
 
 include: ['_pages', '_preview']
 
-paginate: 6
-paginate_path: /page:num/
+pagination:
+  enabled: true
+  per_page: 6
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+
+  collections:
+    preview:
+      enabled: true
+      per_page: 6
+      permalink: '/preview/page/:num/'
+      title: ':title - page :num'
+      limit: 0
+      sort_field: 'date'
+      sort_reverse: true
+      trail:
+        before: 2
+        after: 2
 
 # Exclude these files from your production _site
 exclude:
