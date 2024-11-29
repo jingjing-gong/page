@@ -12,6 +12,10 @@
     <meta name="theme-color" content="#000000">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/{{ site.favicon }}">
     {% include analytics_head.html %}
+
+    {% if page.mathjax or site.mathjax %}
+      <script src="{{ site.mathjax.path }}" async></script>
+    {% endif %}
   </head>
 
   <body>
