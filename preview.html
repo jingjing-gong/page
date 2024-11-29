@@ -3,7 +3,8 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.preview %}
+  {% assign sorted_preview_posts = site.preview | sort: 'date' | reverse %}
+  {% for post in sorted_preview_posts %}
     <article class="post">
       <a href="{{ post.url }}">
         <h1>{{ post.title }}</h1>
