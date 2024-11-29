@@ -87,7 +87,6 @@ plugins:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll-mathjax
 
 include: ['_pages', '_preview']
 
@@ -106,11 +105,6 @@ collections:
   preview:
     output: true
     permalink: /preview/:path/
-
-mathjax:
-  path: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
-  config:
-    tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
 
 katex:
   math_engine: katex

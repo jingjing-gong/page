@@ -2,27 +2,6 @@
 layout: default
 ---
 
-<head>
-  {% if page.mathjax or site.mathjax %}
-    <script type="text/x-mathjax-config">
-      MathJax = {
-        tex: {
-          inlineMath: [['$', '$'], ['\\(', '\\)']],
-          displayMath: [['$$', '$$'], ['\\[', '\\]']],
-          processEscapes: true,
-          tags: 'all'  // Enable equation numbering
-        },
-        options: {
-          renderActions: {
-            addMenu: [0, '', '']
-          }
-        }
-      };
-    </script>
-    <script src="{{ site.mathjax.path }}" async></script>
-  {% endif %}
-</head>
-
 <article class="post detailed">
   <h1>{{ page.title }}</h1>
 
