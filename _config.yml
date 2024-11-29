@@ -76,6 +76,9 @@ kramdown:
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
+  math_engine: mathjax
+  math_engine_opts:
+    preview: false
 
 # Set the Sass partials directory, as we're using @imports
 sass:
@@ -87,6 +90,7 @@ plugins:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-mathjax
 
 include: ['_pages', '_preview']
 
@@ -105,6 +109,11 @@ collections:
   preview:
     output: true
     permalink: /preview/:path/
+
+mathjax:
+  path: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
+  config:
+    tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
 
 katex:
   math_engine: katex
