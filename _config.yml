@@ -105,3 +105,8 @@ collections:
   preview:
     output: true
     permalink: /preview/:path/
+  paginate_preview:
+    enabled: true
+    per_page: 6
+    permalink: '/preview/page/:num/'
+    collection: 'preview'
