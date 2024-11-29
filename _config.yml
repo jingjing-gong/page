@@ -90,7 +90,7 @@ plugins:
 
 include: ['_pages', '_preview']
 
-paginate: 6
+paginate: 5
 paginate_path: /page:num/
 
 # Exclude these files from your production _site
@@ -107,6 +107,6 @@ collections:
     permalink: /preview/:path/
 paginate_preview:
   enabled: true
-  per_page: 6
+  per_page: 5
   permalink: '/preview/page/:num/'
   collection: 'preview'
