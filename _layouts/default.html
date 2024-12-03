@@ -10,27 +10,9 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
     <meta name="theme-color" content="#FFFFFF">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/{{ site.favicon }}">
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="{{ site.baseurl }}{{ site.favicon }}">
     {% include analytics_head.html %}
-
-    {% if page.mathjax or site.mathjax %}
-      <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-          tex2jax: {
-            inlineMath: [['$', '$'], ['\\(', '\\)']],
-            displayMath: [['$$', '$$'], ['\\[', '\\]']],
-            processEscapes: true
-          },
-          TeX: {
-            equationNumbers: { autoNumber: "AMS" }
-          }
-        });
-      </script>
-      <script type="text/javascript" async
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML">
-      </script>
-      <script src="{{ site.mathjax.path }}" async></script>
-    {% endif %}
+    {% include tex_commands.html %}
   </head>
 
   <body>
@@ -47,7 +29,6 @@
 
             <nav>
               <a href="{{ site.baseurl }}/">Home</a>
-              <a href="{{ site.baseurl }}/getting-started">Getting Started</a>
               <a href="{{ site.baseurl }}/search">Search</a>
               <a href="{{ site.baseurl }}/about">About</a>
               <a href="{{ site.baseurl }}/archive">Archive</a>
