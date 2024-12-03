@@ -114,5 +114,5 @@ mathjax:
 
 scholar:
   cite_class: citation
-  style: nature
+  style: apa
   bibliography_template: {{reference}}
