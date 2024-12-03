@@ -5,7 +5,7 @@ title: "The Essence of Bayesian Flow Networks"
 
 
 For easy understanding, the reader can treat the variables as discrete variables. Without loss of generality, the formulation can be easily extended to continuous variables by swapping the summation with integration.
-This section reviews the essence of Bayesian Flow Networks (BFN) {% cite graves2023bayesian austin2021structured --file references %} in a more simple language, there is a defined noisy channel $q(\cdot \mid \tx; \omega)$, through which a variable $\tx$ leaks it's information $\tz_i \sim q(\cdot \mid \tx; \omega)$. An observer then receives the leaked information and updates its belief about the variable $\tx$ through Bayesian update and obtain a belief about $\tx$: $p(\tx \mid \tz_{1:n})$. 
+This section reviews the essence of Bayesian Flow Networks (BFN) {% cite graves2023bayesian --file references %} in a more simple language, there is a defined noisy channel $q(\cdot \mid \tx; \omega)$, through which a variable $\tx$ leaks it's information $\tz_i \sim q(\cdot \mid \tx; \omega)$. An observer then receives the leaked information and updates its belief about the variable $\tx$ through Bayesian update and obtain a belief about $\tx$: $p(\tx \mid \tz_{1:n})$. 
 
 In a bits-back coding scheme, the total nats required to transfer $\tx$ with $\tz_{1:n}$ as intermediate latent is $-\log p(\tz_{1:n}) - \log p(\tx \mid \tz_{1:n})$ with $-\log q(\tz_{1:n} \mid \tx)$ nats put back, so the expected marginal nats required to transfer data from $p(\tx)$ is:
 
