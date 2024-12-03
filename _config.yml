@@ -101,6 +101,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - vendor
 
 collections:
   preview:
