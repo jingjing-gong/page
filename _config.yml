@@ -87,6 +87,7 @@ plugins:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-scholar
 
 include: ['_pages', '_preview']
 
@@ -109,3 +110,8 @@ collections:
 mathjax:
   path: '/assets/mathjax/es5/tex-svg-full.js' #'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg-full.js'
   config_path: '/assets/mathjax-config.js'
+
+scholar:
+  cite_class: citation
+  style: nature
+  bibliography_template: {{reference}}
