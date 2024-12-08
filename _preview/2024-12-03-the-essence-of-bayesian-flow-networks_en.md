@@ -30,7 +30,7 @@ $$
 
 There could be sparsity problem or curse of dimensionality problem when the variable $\tx$ is high-dimensional. 
 Thus $m$-dimensional $\tx$ is treated as $m$ independent variables, and updated independently with bayesian update rule. 
-To model the interdependence between variables, an neural network is introduced to rectify the posterior distribution $q(\cdot \mid \tz_{1:n}; \btheta^{(1)}, \cdots, \btheta^{(m)})$, where $\btheta^{(i)}$ is the governing parameter of the posterior distribution of the $i$-th component and determined by $\tz_{1:n}$.
+To model the interdependence between variables, a neural network is introduced to rectify the posterior distribution $q(\cdot \mid \tz_{1:n}; \btheta^{(1)}, \cdots, \btheta^{(m)})$, where $\btheta^{(i)}$ is the governing parameter of the posterior distribution of the $i$-th component and determined by $\tz_{1:n}^{(i)}$.
 
 $$
 \begin{align}

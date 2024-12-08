@@ -4,12 +4,12 @@ title: "The Essence of Bayesian Flow Networks"
 ---
 
 For easy understanding, the reader can treat the variables as discrete variables. Without loss of generality, the formulation can be easily extended to continuous variables by swapping the summation with integration.
-This post introduces the Bayesian Flow Networks (BFN) {% cite graves2023bayesian --file references %} in a more simple language.
+This post introduces the [Bayesian Flow Networks (BFN)](http://arxiv.org/abs/2308.07037)[^graves2023bayesian] in a more simple language.
 
 Given a noisy channel $q(\cdot \mid \tx; \omega)$, through which a variable $\tx$ leaks it's information $\tz_i \sim q(\cdot \mid \tx; \omega)$. 
 An observer then receives the leaked information and updates its belief about the variable $\tx$ through bayesian update and obtain a belief about $\tx$: $p(\tx \mid \tz_{1:n})$. 
 
-In a bits-back coding scheme, the total nats required to transfer $\tx$ with $\tz_{1:n}$ as intermediate latent is $-\log p(\tz_{1:n}) - \log p(\tx \mid \tz_{1:n})$ with $-\log q(\tz_{1:n} \mid \tx)$ nats put back, so the expected marginal nats required to transfer data from $p(\tx)$ is:
+In a bits-back coding scheme, the total nats required to transfer $\tx$ with $\tz_{1:n}$ as intermediate latent is $-\log p(\tz_{1:n}) - \log p(\tx \mid \tz_{1:n})$ with $-\log q(\tz_{1:n} \mid \tx)$ nats put back, so the expected marginal nats required to transfer data from data distribution $p(\tx)$ is:
 
 $$
 \begin{align}
@@ -30,7 +30,7 @@ $$
 
 There could be sparsity problem or curse of dimensionality problem when the variable $\tx$ is high-dimensional. 
 Thus $m$-dimensional $\tx$ is treated as $m$ independent variables, and updated independently with bayesian update rule. 
-To model the interdependence between variables, an neural network is introduced to rectify the posterior distribution $q(\cdot \mid \tz_{1:n}; \btheta^{(1)}, \cdots, \btheta^{(m)})$, where $\btheta^{(i)}$ is the governing parameter of the posterior distribution of the $i$-th component and determined by $\tz_{1:n}$.
+To model the interdependence between variables, a neural network is introduced to rectify the posterior distribution $q(\cdot \mid \tz_{1:n}; \btheta^{(1)}, \cdots, \btheta^{(m)})$, where $\btheta^{(i)}$ is the governing parameter of the posterior distribution of the $i$-th component and determined by $\tz_{1:n}^{(i)}$.
 
 $$
 \begin{align}
@@ -60,4 +60,4 @@ The $-\mathtt{VLB}(\bphi)$ is the expected marginal nats required to transfer a 
 The objective is to minimize the transmission cost, and the model is trained by minimizing the $-\mathtt{VLB}(\bphi)$.
 
 ----------
-{% bibliography --cited_in_order %}
+[^graves2023bayesian]: Alex Graves, Rupesh Kumar Srivastava, Timothy Atkinson, Faustino Gomez. "[Bayesian flow networks](http://arxiv.org/abs/2308.07037)", arXiv 2023.
