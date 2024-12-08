@@ -59,5 +59,10 @@ $$
 The $-\mathtt{VLB}(\bphi)$ is the expected marginal nats required to transfer a data from $p(\tx)$, with the transmission system parameterized by $\bphi$. 
 The objective is to minimize the transmission cost, and the model is trained by minimizing the $-\mathtt{VLB}(\bphi)$.
 
-----------
+
+
+
+References
+----
+
 [^graves2023bayesian]: Alex Graves, Rupesh Kumar Srivastava, Timothy Atkinson, Faustino Gomez. "[Bayesian flow networks](http://arxiv.org/abs/2308.07037)", arXiv 2023.

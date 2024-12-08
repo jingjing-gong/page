@@ -66,29 +66,33 @@ permalink: /:title/
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
+markdown: kramdown
 
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
 
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
+  
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll-scholar
+  - kramdown-parser-gfm
+  # - jekyll-scholar
 
+
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+  parse_block_html: true
+
+  
 include: ['_pages', '_preview']
 
 paginate: 6
@@ -112,7 +116,7 @@ mathjax:
   path: '/assets/mathjax/es5/tex-svg-full.js' #'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg-full.js'
   config_path: '/assets/mathjax-config.js'
 
-scholar:
-  cite_class: citation
-  style: apa
-  bibliography_template: {{reference}}
+# scholar:
+#   cite_class: citation
+#   style: apa
+#   bibliography_template: {{reference}}

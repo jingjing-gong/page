@@ -30,6 +30,26 @@ body {
   height: 100%;
 }
 
+.footnote {
+  vertical-align: super;
+  font-size: smaller;
+}
+.footnote::before {
+  content: '[';
+}
+
+.footnote::after {
+  content: ']';
+}
+
+.footnote sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+.footnote sup + sup::before {
+  content: ', ';
+}
 .container {
   margin: 0 auto;
   max-width: 1000px;
