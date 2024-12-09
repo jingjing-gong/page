@@ -9,7 +9,7 @@ This post introduces the [Bayesian Flow Networks](http://arxiv.org/abs/2308.0703
 Given a noisy channel $q(\cdot \mid \tx; \omega)$, through which a variable $\tx$ leaks it's information $\tz_i \sim q(\cdot \mid \tx; \omega)$. 
 An observer then receives the leaked information and updates its belief about the variable $\tx$ through bayesian update and obtain a belief about $\tx$: $p(\tx \mid \tz_{1:n})$. 
 
-In a bits-back coding scheme, the total nats required to transfer $\tx$ with $\tz_{1:n}$ as intermediate latent is $-\log p(\tz_{1:n}) - \log p(\tx \mid \tz_{1:n})$ with $-\log q(\tz_{1:n} \mid \tx)$ nats put back, so the expected marginal nats required to transfer data from data distribution $p(\tx)$ is:
+In a bits-back coding scheme[^frey1997efficient][^townsend2019practical][^kingma2019bit], the total nats required to transfer $\tx$ with $\tz_{1:n}$ as intermediate latent is $-\log p(\tz_{1:n}) - \log p(\tx \mid \tz_{1:n})$ with $-\log q(\tz_{1:n} \mid \tx)$ nats put back, so the expected marginal nats required to transfer data from data distribution $p(\tx)$ is:
 
 $$
 \begin{align}
@@ -66,3 +66,9 @@ References
 ----
 
 [^graves2023bayesian]: Alex Graves, Rupesh Kumar Srivastava, Timothy Atkinson, Faustino Gomez. "[Bayesian flow networks](http://arxiv.org/abs/2308.07037)", arXiv 2023.
+
+[^frey1997efficient]: Brendan J. Frey, Geoffrey E. Hinton. "Efficient stochastic source coding and an application to a Bayesian network source model", The Computer Journal, 1997.
+
+[^townsend2019practical]: James Townsend, Tom Bird, David Barber. "Practical lossless compression with latent variables using bits back coding", arXiv 2019.
+
+[^kingma2019bit]: Friso Kingma, Pieter Abbeel, Jonathan Ho. "Bit-swap: Recursive bits-back coding for lossless compression with hierarchical latent variables", International Conference on Machine Learning, 2019.
