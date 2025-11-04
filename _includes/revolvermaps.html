@@ -1,23 +1,29 @@
-<!-- Visitor Map Widget - matches footer icon size -->
-<a href="https://mapmyvisitors.com/web/1bw9w" title="Visit tracker" style="display: inline-block; margin: 0 5px;">
-  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=teCW9GNpXm22VYxGOKZxeEN78HFDHQFCl8fD9-xE-QQ&cl=ffffff&w=a"></script>
-</a>
+<!-- Visitor Map Widget - icon-sized -->
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=teCW9GNpXm22VYxGOKZxeEN78HFDHQFCl8fD9-xE-QQ&cl=ffffff&w=a"></script>
 
 <style>
-  #mapmyvisitors {
+  .footer #mapmyvisitors {
     display: inline-block !important;
     width: 40px !important;
     height: 40px !important;
-    margin: 0 !important;
+    margin: 0 5px !important;
     padding: 0 !important;
     vertical-align: middle !important;
+    overflow: hidden !important;
   }
-  #mapmyvisitors img, #mapmyvisitors canvas {
+  .footer #mapmyvisitors img, 
+  .footer #mapmyvisitors canvas,
+  .footer #mapmyvisitors > div {
     width: 40px !important;
     height: 40px !important;
     max-width: 40px !important;
     max-height: 40px !important;
     margin: 0 !important;
     padding: 0 !important;
+  }
+  .footer #mapmyvisitors a {
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
   }
 </style>
