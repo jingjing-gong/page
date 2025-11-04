@@ -2,7 +2,9 @@ version: '3.8'
 
 services:
   jekyll:
-    build: .
+    build: 
+      context: ..
+      dockerfile: docker/Dockerfile
     container_name: jekyll-preview
     ports:
       - "4000:4000"     # Jekyll site
@@ -12,6 +14,7 @@ services:
       - bundle_cache:/usr/local/bundle
     environment:
       - JEKYLL_ENV=development
+    command: sh -c "bundle install && jekyll serve --host 0.0.0.0 --livereload --force_polling"
     stdin_open: true
     tty: true
 

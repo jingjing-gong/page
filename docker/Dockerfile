@@ -2,12 +2,6 @@ FROM jekyll/jekyll:4.2.2
 
 WORKDIR /srv/jekyll
 
-# Copy Gemfile for dependency installation
-COPY Gemfile* ./
-
-# Install dependencies
-RUN bundle install
-
 # Expose Jekyll default port
 EXPOSE 4000
 
