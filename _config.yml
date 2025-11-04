@@ -22,7 +22,7 @@ favicon: /images/favicon.ico
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: jjgongjj+page@gmail.com
+  email: jjgongjj+page[AT]gmail.com
   facebook:
   flickr:
   github: jingjing-gong
@@ -30,7 +30,7 @@ footer-links:
   linkedin: 
   pinterest:
   rss: rss
-  twitter: 
+  twitter: JingjingGong_
   stackoverflow: 
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
