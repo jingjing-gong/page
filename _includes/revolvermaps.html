@@ -1,29 +1,19 @@
-<!-- Visitor Map Widget - icon-sized -->
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=teCW9GNpXm22VYxGOKZxeEN78HFDHQFCl8fD9-xE-QQ&cl=ffffff&w=a"></script>
+<!-- Visitor Map Widget - icon-sized, inline with other icons -->
+<span style="display: inline-block; width: 40px; height: 40px; overflow: hidden; vertical-align: middle; margin: 0 5px;">
+  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=teCW9GNpXm22VYxGOKZxeEN78HFDHQFCl8fD9-xE-QQ&cl=ffffff&w=a"></script>
+</span>
 
 <style>
-  .footer #mapmyvisitors {
-    display: inline-block !important;
-    width: 40px !important;
-    height: 40px !important;
-    margin: 0 5px !important;
-    padding: 0 !important;
-    vertical-align: middle !important;
-    overflow: hidden !important;
-  }
-  .footer #mapmyvisitors img, 
-  .footer #mapmyvisitors canvas,
-  .footer #mapmyvisitors > div {
-    width: 40px !important;
-    height: 40px !important;
+  .footer #mapmyvisitors,
+  .footer #mapmyvisitors * {
     max-width: 40px !important;
     max-height: 40px !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  .footer #mapmyvisitors a {
-    display: inline-block !important;
     width: 40px !important;
     height: 40px !important;
+    display: inline-block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    line-height: 40px !important;
   }
 </style>
