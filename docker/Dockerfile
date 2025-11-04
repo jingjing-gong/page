@@ -1,0 +1,15 @@
+FROM jekyll/jekyll:4.2.2
+
+WORKDIR /srv/jekyll
+
+# Copy Gemfile for dependency installation
+COPY Gemfile* ./
+
+# Install dependencies
+RUN bundle install
+
+# Expose Jekyll default port
+EXPOSE 4000
+
+# Start Jekyll server accessible from host
+CMD ["jekyll", "serve", "--host", "0.0.0.0", "--livereload", "--force_polling"]

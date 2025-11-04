@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  jekyll:
+    build: .
+    container_name: jekyll-preview
+    ports:
+      - "4000:4000"     # Jekyll site
+      - "35729:35729"   # LiveReload
+    volumes:
+      - ..:/srv/jekyll
+      - bundle_cache:/usr/local/bundle
+    environment:
+      - JEKYLL_ENV=development
+    stdin_open: true
+    tty: true
+
+volumes:
+  bundle_cache:
