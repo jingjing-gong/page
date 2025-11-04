@@ -36,6 +36,7 @@ footer-links:
   googleplus: # anything in your profile username that comes after plus.google.com/
   playconsole:
   mastodon: # <your-mastodon-instance>/@<your-user-name> eg. fosstodon.org/@username
+  visitormap: teCW9GNpXm22VYxGOKZxeEN78HFDHQFCl8fD9-xE-QQ # mapmyvisitors.com visitor map ID
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
