@@ -1,0 +1,288 @@
+PUBLICATIONS AND NEWS FOR JINGJING GONG
+========================================
+
+RECENT NEWS AND HIGHLIGHTS:
+- [Feb 2026] "[Libero-Plus: In-Depth Robustness Analysis of Vision-Language-Action Models](https://arxiv.org/abs/2510.13626)" accepted at CVPR 2026
+- [Feb 2026] "[SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models](https://arxiv.org/abs/2511.15605)" accepted at CVPR 2026
+- [Jan 2026] "[FASTer: Toward Efficient Autoregressive Vision Language Action Modeling via Neural Action Tokenization](https://arxiv.org/abs/2512.04952)" accepted at ICLR 2026
+- [Jan 2026] "[RoboOmni: Proactive Robot Manipulation in Omni-Modal Context](https://arxiv.org/abs/2510.23763)" accepted at ICLR 2026
+- [May 2025] "[A Periodic Bayesian Flow for Material Generation](https://openreview.net/forum?id=Lz0XW99tE0)" accepted at ICLR 2025
+- [May 2025] "[Steering Protein Family Design Through Profile Bayesian Flow](https://openreview.net/forum?id=PSiijdQjNU)" accepted at ICLR 2025 as an Oral Presentation
+- [Oct 2024] "[Unleashing Embodied Task Planning Ability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2506.23127)" submitted
+
+PEER-REVIEWED PUBLICATIONS:
+==========================
+
+### 2026
+1. **Libero-Plus: In-Depth Robustness Analysis of Vision-Language-Action Models**
+   Authors: Senyu Fei, Siyin Wang, Junhao Shi, Zihao Dai, Jikun Cai, Pengfang Qian, Li Ji, Xinzhe He, Shiduo Zhang, Zhaoye Fei, Jinlan Fu, Jingjing Gong, Xipeng Qiu
+   Link: https://arxiv.org/abs/2510.13626
+   Conference: CVPR 2026 (IEEE/CVF Conference on Computer Vision and Pattern Recognition)
+   Status: ✓ ACCEPTED
+   Citations: 49
+   Year Published: 2026
+   Focus: Robustness of embodied AI models
+
+2. **SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models**
+   Authors: Senyu Fei, Siyin Wang, Li Ji, Ao Li, Shiduo Zhang, Liming Liu, Jinlong Hou, Jingjing Gong, Xianzhong Zhao, Xipeng Qiu
+   Link: https://arxiv.org/abs/2511.15605
+   Conference: CVPR 2026 (IEEE/CVF Conference on Computer Vision and Pattern Recognition)
+   Status: ✓ ACCEPTED
+   Citations: 7
+   Year Published: 2026
+   Focus: Embodied AI / Reinforcement Learning
+
+3. **FASTer: Toward Efficient Autoregressive Vision Language Action Modeling via Neural Action Tokenization**
+   Authors: Yicheng Liu, Shiduo Zhang, Zibin Dong, Baijun Ye, Tianyuan Yuan, Xiaopeng Yu, Linqi Yin, Chenhao Lu, Junhao Shi, Luca Jiang-Tao Yu, Liangtao Zheng, Tao Jiang, Jingjing Gong, Xipeng Qiu, Hang Zhao
+   Link: https://arxiv.org/abs/2512.04952
+   Conference: ICLR 2026 (The Fourteenth International Conference on Learning Representations)
+   Status: ✓ ACCEPTED
+   Citations: 6
+   Year Published: 2026
+   Focus: Efficient embodied AI models
+
+4. **RoboOmni: Proactive Robot Manipulation in Omni-Modal Context**
+   Authors: Siyin Wang, Jinlan Fu, Feihong Liu, Xinzhe He, Huangxuan Wu, Junhao Shi, Kexin Huang, Zhaoye Fei, Jingjing Gong, Zuxuan Wu, Yu-Gang Jiang, See-Kiong Ng, Tat-Seng Chua, Xipeng Qiu
+   Link: https://arxiv.org/abs/2510.23763
+   Conference: ICLR 2026 (The Fourteenth International Conference on Learning Representations)
+   Status: ✓ ACCEPTED
+   Citations: 4
+   Year Published: 2026
+   Focus: Multimodal robot manipulation
+
+### 2025
+1. **A Periodic Bayesian Flow for Material Generation**
+   Authors: Hanlin Wu, Yuxuan Song, Jingjing Gong, Ziyao Cao, Yawen Ouyang, Jianbing Zhang, Hao Zhou, Wei-Ying Ma, Jingjing Liu
+   Link: https://openreview.net/forum?id=Lz0XW99tE0
+   Conference: ICLR 2025 (The Thirteenth International Conference on Learning Representations)
+   Status: ✓ ACCEPTED
+   Citations: 13
+   Year Published: 2025
+   Focus: Material science / Generative models
+
+2. **Steering Protein Family Design Through Profile Bayesian Flow**
+   Authors: Jingjing Gong, Yu Pei, Siyu Long, Yuxuan Song, Zhe Zhang, Wenhao Huang, Ziyao Cao, Shuyi Zhang, Hao Zhou, Wei-Ying Ma
+   Link: https://openreview.net/forum?id=PSiijdQjNU
+   Conference: ICLR 2025 (The Thirteenth International Conference on Learning Representations)
+   Status: ✓ ACCEPTED (Oral Presentation)
+   Citations: 6
+   Year Published: 2025
+   Focus: Generative models for protein design
+
+3. **Smooth Interpolation for Improved Discrete Graph Generative Models**
+   Authors: Yuxuan Song, Juntong Shi, Jingjing Gong, Minkai Xu, Stefano Ermon, Hao Zhou, Wei-Ying Ma
+   Link: https://proceedings.mlr.press/v267/song25f.html
+   Conference: ICML 2025 (Forty-second International Conference on Machine Learning)
+   Status: ✓ ACCEPTED
+   Citations: 3
+   Year Published: 2025
+
+4. **Accelerating 3D Molecule Generative Models with Trajectory Diagnosis**
+   Authors: Zhilong Zhang, Yuxuan Song, Yichun Wang, Jingjing Gong, Hanlin Wu, Dongzhan Zhou, Hao Zhou, Wei-Ying Ma
+   Link: https://openreview.net/forum?id=ATewcZPbDj
+   Conference: NeurIPS 2025 (The Thirty-ninth Annual Conference on Neural Information Processing Systems)
+   Status: ✓ ACCEPTED
+   Citations: unavailable (Google Scholar blocked during refresh on 2026-04-22)
+   Year Published: 2025
+
+### 2024
+1. **MolCRAFT: Structure-Based Drug Design in Continuous Parameter Space**
+   Authors: Yanru Qu, Keyue Qiu, Yuxuan Song, Jingjing Gong, Jiawei Han, Mingyue Zheng, Hao Zhou, Wei-Ying Ma
+   Link: https://proceedings.mlr.press/v235/qu24a.html
+   Conference: ICML 2024 (International Conference on Machine Learning)
+   Status: ✓ ACCEPTED
+   Citations: 73
+   Year Published: 2024
+   Focus: Structure-based drug design
+
+2. **Unified Generative Modeling of 3D Molecules via Bayesian Flow Networks**
+   Authors: Yuxuan Song, Jingjing Gong, Hao Zhou, Mingyue Zheng, Jingjing Liu, Wei-Ying Ma
+   Link: https://arxiv.org/abs/2403.15441
+   Conference: ICLR 2024 (The Twelfth International Conference on Learning Representations)
+   Status: ✓ ACCEPTED (Oral Presentation)
+   Citations: 62
+   Year Published: 2024
+
+### 2023
+1. **Equivariant Flow Matching with Hybrid Probability Transport for 3D Molecule Generation**
+   Authors: Yuxuan Song, Jingjing Gong, Minkai Xu, Ziyao Cao, Yanyan Lan, Stefano Ermon, Hao Zhou, Wei-Ying Ma
+   Link: http://papers.nips.cc/paper_files/paper/2023/hash/01d64478381c33e29ed611f1719f5a37-Abstract-Conference.html
+   Conference: NeurIPS 2023 (Advances in Neural Information Processing Systems 36, pages 549-568)
+   Status: ✓ ACCEPTED
+   Citations: 126
+   Year Published: 2023
+
+2. **Coarse-to-Fine: A Hierarchical Diffusion Model for Molecule Generation in 3D**
+   Authors: Bo Qiang, Yuxuan Song, Minkai Xu, Jingjing Gong, Bowen Gao, Hao Zhou, Wei-Ying Ma, Yanyan Lan
+   Link: https://proceedings.mlr.press/v202/qiang23a.html
+   Conference: ICML 2023 (International Conference on Machine Learning, pages 28277-28299)
+   Status: ✓ ACCEPTED
+   Citations: 46
+   Year Published: 2023
+
+### 2021
+1. **Text Information Aggregation with Centrality Attention**
+   Authors: Jingjing Gong, Hang Yan, Yining Zheng, Qipeng Guo, Xipeng Qiu, Xuanjing Huang
+   Link: https://doi.org/10.1007/s11432-019-1519-6
+   Journal: Science China Information Sciences 64(12), 222103
+   Status: ✓ PUBLISHED
+   Citations: 2
+   Year Published: 2021
+
+### 2019
+1. **Long Short-Term Memory with Dynamic Skip Connections**
+   Authors: Tao Gui, Qi Zhang, Lujun Zhao, Yaosong Lin, Minlong Peng, Jingjing Gong, Xuanjing Huang
+   Link: https://doi.org/10.1609/aaai.v33i01.33016481
+   Conference: AAAI 2019 (Proceedings of the AAAI Conference on Artificial Intelligence 33(01), pages 6481-6488)
+   Status: ✓ ACCEPTED
+   Citations: 48
+   Year Published: 2019
+
+2. **Switch-LSTMs for Multi-Criteria Chinese Word Segmentation**
+   Authors: Jingjing Gong, Xinchi Chen, Tao Gui, Xipeng Qiu
+   Link: https://doi.org/10.1609/aaai.v33i01.33016457
+   Conference: AAAI 2019 (Proceedings of the AAAI Conference on Artificial Intelligence 33(01), pages 6457-6464)
+   Status: ✓ ACCEPTED
+   Citations: 42
+   Year Published: 2019
+
+### 2018
+1. **Information Aggregation via Dynamic Routing for Sequence Encoding**
+   Authors: Jingjing Gong, Xipeng Qiu, Shaojing Wang, Xuanjing Huang
+   Link: https://aclanthology.org/C18-1232/
+   Conference: COLING 2018 (Proceedings of the 27th International Conference on Computational Linguistics)
+   Status: ✓ ACCEPTED
+   Citations: 82
+   Year Published: 2018
+
+2. **Transferring from Formal Newswire Domain with HyperNet for Twitter POS Tagging**
+   Authors: Tao Gui, Qi Zhang, Jingjing Gong, Minlong Peng, Di Liang, Keyu Ding, Xuanjing Huang
+   Link: https://doi.org/10.18653/v1/D18-1275
+   Conference: EMNLP 2018 (Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing)
+   Status: ✓ ACCEPTED
+   Citations: 26
+   Year Published: 2018
+
+3. **Convolutional Interaction Network for Natural Language Inference**
+   Authors: Jingjing Gong, Xipeng Qiu, Xinchi Chen, Dong Liang, Xuanjing Huang
+   Link: https://doi.org/10.18653/v1/D18-1186
+   Conference: EMNLP 2018 (Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing)
+   Status: ✓ ACCEPTED
+   Citations: 22
+   Year Published: 2018
+
+### 2017
+1. **Overview of the NLPCC 2017 Shared Task: Chinese News Headline Categorization**
+   Authors: Xipeng Qiu, Jingjing Gong, Xuanjing Huang
+   Link: https://doi.org/10.1007/978-3-319-73618-1_85
+   Conference: NLPCC 2017 (National CCF Conference on Natural Language Processing and Chinese Computing)
+   Status: ✓ ACCEPTED (Shared Task Overview)
+   Citations: 17
+   Year Published: 2017
+
+PREPRINTS (SUBMITTED / UNDER REVIEW):
+====================================
+
+### 2026
+1. **FRoM-W1: Towards General Humanoid Whole-Body Control with Language Instructions**
+   Authors: P Li, Z Zhuang, Y Gao, Y Dong, S Li, C Jiang, S Dou, Z Xi, E Zhou, ...
+   Link: https://arxiv.org/abs/2601.12799
+   Type: arXiv Preprint (arXiv:2601.12799)
+   Status: Preprint / Under Review
+   Citations: 2
+   Year: 2026
+   Focus: Humanoid whole-body control
+
+2. **ActionCodec: What Makes for Good Action Tokenizers**
+   Authors: Z Dong, Y Liu, S Zhang, B Ye, Y Yuan, F Ni, J Gong, X Qiu, H Zhao, Y Li, ...
+   Link: https://arxiv.org/abs/2602.15397
+   Type: arXiv Preprint (arXiv:2602.15397)
+   Status: Preprint / Under Review
+   Citations: 1
+   Year: 2026
+   Focus: Action tokenization for embodied models
+
+3. **ResearchEnvBench: Benchmarking Agents on Environment Synthesis for Research Code Execution**
+   Authors: Y Wang, C Zhang, B Chen, Z Huai, Z Dai, X Chen, Y Wang, Y Zheng, ...
+   Link: https://arxiv.org/abs/2603.06739
+   Type: arXiv Preprint (arXiv:2603.06739)
+   Status: Preprint / Under Review
+   Citations: unavailable (Google Scholar blocked during refresh on 2026-04-22)
+   Year: 2026
+   Focus: Agent benchmarking for research code execution
+
+4. **AstroReason-Bench: Evaluating Unified Agentic Planning across Heterogeneous Space Planning Problems**
+   Authors: Weiyi Wang, Xinchi Chen, Jingjing Gong, Xuanjing Huang, Xipeng Qiu
+   Link: https://arxiv.org/abs/2601.11354
+   Type: arXiv Preprint (arXiv:2601.11354)
+   Status: Preprint / Under Review
+   Citations: unavailable (Google Scholar blocked during refresh on 2026-04-22)
+   Year: 2026
+   Focus: Agentic planning for space-domain tasks
+
+### 2025
+1. **Unleashing Embodied Task Planning Ability in LLMs via Reinforcement Learning**
+   Authors: Zhaoye Fei, Li Ji, Siyin Wang, Junhao Shi, Jingjing Gong, Xipeng Qiu
+   Link: https://arxiv.org/abs/2506.23127
+   Type: arXiv Preprint (arXiv:2506.23127)
+   Status: Preprint / Under Review
+   Citations: 7
+   Year: 2025
+   Focus: Large Language Models for embodied planning
+
+2. **World-Aware Planning Narratives Enhance Large Vision-Language Model Planner**
+   Authors: Junhao Shi, Zhaoye Fei, Siyin Wang, Qipeng Guo, Jingjing Gong, Xipeng Qiu
+   Link: https://arxiv.org/abs/2506.21230
+   Type: arXiv Preprint (arXiv:2506.21230)
+   Status: Preprint / Under Review
+   Citations: 4
+   Year: 2025
+   Focus: Vision-language planning
+
+3. **Amix-1: A Pathway to Test-Time Scalable Protein Foundation Model**
+   Authors: C Lv, J Zhou, S Long, L Wang, J Feng, D Xue, Y Pei, H Wang, Z Zhang, ...
+   Link: https://arxiv.org/abs/2507.08920
+   Type: arXiv Preprint (arXiv:2507.08920)
+   Status: Preprint / Under Review
+   Citations: 3
+   Year: 2025
+   Focus: Protein foundation models
+
+4. **Shortlisting Model: A Streamlined SimplexDiffusion for Discrete Variable Generation**
+   Authors: Y Song, Z Zhang, Y Pei, J Gong, Q Yu, Z Zhang, M Wang, H Zhou, J Liu, ...
+   Link: https://arxiv.org/abs/2508.17345
+   Type: arXiv Preprint (arXiv:2508.17345)
+   Status: Preprint / Under Review
+   Citations: 2
+   Year: 2025
+   Focus: Discrete generative modeling
+
+### 2016
+1. **End-to-End Neural Sentence Ordering Using Pointer Network**
+   Authors: Jingjing Gong, Xinchi Chen, Xipeng Qiu, Xuanjing Huang
+   Link: https://arxiv.org/abs/1611.04953
+   Type: arXiv Preprint (arXiv:1611.04953)
+   Status: Preprint (not yet accepted to conference)
+   Citations: 69
+   Year: 2016
+
+SUMMARY:
+========
+- Total Peer-Reviewed Publications: 19 papers
+  - Top venues: NeurIPS, ICLR, ICML, AAAI, EMNLP, COLING, NLPCC, CVPR, Science China Information Sciences
+  - Year range: 2017-2026
+  - Total citations: 450+
+  - Recent highlights: Oral Presentations at ICLR 2024 and ICLR 2025, plus new ICML 2025 and NeurIPS 2025 papers
+   Citation refresh note: Google Scholar returned an anti-bot challenge on 2026-04-22, so existing counts were retained and unavailable counts could not be refreshed.
+
+- Preprints (Not Yet Accepted): 9 papers
+  - Submission period: 2016, 2025-2026
+  - Focus areas: Embodied AI, agentic planning, protein foundation models, scientific code execution
+  - Status: Under review or awaiting conference notifications
+   Citation refresh note: Google Scholar returned an anti-bot challenge on 2026-04-22, so existing counts were retained and unavailable counts could not be refreshed.
+
+RESEARCH INTERESTS EVOLUTION:
+- Early work: NLP (2017-2018) - Shared Task, language understanding, word segmentation
+- Mid-career: Recurrent architectures & transfer learning (2018-2019)
+- Recent focus: Generative models for science (2023-2024) - Molecular design, flow matching
+- Current: Embodied AI & multi-modal learning (2024-2025) - Robot manipulation, vision-language models
