@@ -6,9 +6,9 @@ RECENT NEWS AND HIGHLIGHTS:
 - [Feb 2026] "[SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models](https://arxiv.org/abs/2511.15605)" accepted at CVPR 2026
 - [Jan 2026] "[FASTer: Toward Efficient Autoregressive Vision Language Action Modeling via Neural Action Tokenization](https://arxiv.org/abs/2512.04952)" accepted at ICLR 2026
 - [Jan 2026] "[RoboOmni: Proactive Robot Manipulation in Omni-Modal Context](https://arxiv.org/abs/2510.23763)" accepted at ICLR 2026
+- [Sep 2025] "[ShortListing Model: A Streamlined Simplex Diffusion for Discrete Variable Generation](https://openreview.net/forum?id=ZAu7sADxfh)" accepted at NeurIPS 2025 as a Poster
 - [May 2025] "[A Periodic Bayesian Flow for Material Generation](https://openreview.net/forum?id=Lz0XW99tE0)" accepted at ICLR 2025
 - [May 2025] "[Steering Protein Family Design Through Profile Bayesian Flow](https://openreview.net/forum?id=PSiijdQjNU)" accepted at ICLR 2025 as an Oral Presentation
-- [Oct 2024] "[Unleashing Embodied Task Planning Ability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2506.23127)" submitted
 
 PEER-REVIEWED PUBLICATIONS:
 ==========================
@@ -84,6 +84,24 @@ PEER-REVIEWED PUBLICATIONS:
    Status: ✓ ACCEPTED
    Citations: unavailable (Google Scholar blocked during refresh on 2026-04-22)
    Year Published: 2025
+
+5. **World-Aware Planning Narratives Enhance Large Vision-Language Model Planner**
+   Authors: Junhao Shi, Zhaoye Fei, Siyin Wang, Qipeng Guo, Jingjing Gong, Xipeng Qiu
+   Link: https://neurips.cc/virtual/2025/poster/116820
+   Conference: NeurIPS 2025 (The Thirty-ninth Annual Conference on Neural Information Processing Systems)
+   Status: ✓ ACCEPTED
+   Citations: 4
+   Year Published: 2025
+   Focus: Vision-language planning
+
+6. **ShortListing Model: A Streamlined Simplex Diffusion for Discrete Variable Generation**
+   Authors: Yuxuan Song, Zhe Zhang, Yu Pei, Jingjing Gong, Qiying Yu, Zheng Zhang, Mingxuan Wang, Hao Zhou, Jingjing Liu, Wei-Ying Ma
+   Link: https://openreview.net/forum?id=ZAu7sADxfh
+   Conference: NeurIPS 2025 (The Thirty-ninth Annual Conference on Neural Information Processing Systems)
+   Status: ✓ ACCEPTED (Poster)
+   Citations: 2 (existing count retained; Google Scholar blocked during refresh on 2026-04-25)
+   Year Published: 2025
+   Focus: Discrete generative modeling
 
 ### 2024
 1. **MolCRAFT: Structure-Based Drug Design in Continuous Parameter Space**
@@ -230,16 +248,7 @@ PREPRINTS (SUBMITTED / UNDER REVIEW):
    Year: 2025
    Focus: Large Language Models for embodied planning
 
-2. **World-Aware Planning Narratives Enhance Large Vision-Language Model Planner**
-   Authors: Junhao Shi, Zhaoye Fei, Siyin Wang, Qipeng Guo, Jingjing Gong, Xipeng Qiu
-   Link: https://arxiv.org/abs/2506.21230
-   Type: arXiv Preprint (arXiv:2506.21230)
-   Status: Preprint / Under Review
-   Citations: 4
-   Year: 2025
-   Focus: Vision-language planning
-
-3. **Amix-1: A Pathway to Test-Time Scalable Protein Foundation Model**
+2. **Amix-1: A Pathway to Test-Time Scalable Protein Foundation Model**
    Authors: C Lv, J Zhou, S Long, L Wang, J Feng, D Xue, Y Pei, H Wang, Z Zhang, ...
    Link: https://arxiv.org/abs/2507.08920
    Type: arXiv Preprint (arXiv:2507.08920)
@@ -247,15 +256,6 @@ PREPRINTS (SUBMITTED / UNDER REVIEW):
    Citations: 3
    Year: 2025
    Focus: Protein foundation models
-
-4. **Shortlisting Model: A Streamlined SimplexDiffusion for Discrete Variable Generation**
-   Authors: Y Song, Z Zhang, Y Pei, J Gong, Q Yu, Z Zhang, M Wang, H Zhou, J Liu, ...
-   Link: https://arxiv.org/abs/2508.17345
-   Type: arXiv Preprint (arXiv:2508.17345)
-   Status: Preprint / Under Review
-   Citations: 2
-   Year: 2025
-   Focus: Discrete generative modeling
 
 ### 2016
 1. **End-to-End Neural Sentence Ordering Using Pointer Network**
@@ -268,18 +268,18 @@ PREPRINTS (SUBMITTED / UNDER REVIEW):
 
 SUMMARY:
 ========
-- Total Peer-Reviewed Publications: 19 papers
+- Total Peer-Reviewed Publications: 21 papers
   - Top venues: NeurIPS, ICLR, ICML, AAAI, EMNLP, COLING, NLPCC, CVPR, Science China Information Sciences
   - Year range: 2017-2026
   - Total citations: 450+
-  - Recent highlights: Oral Presentations at ICLR 2024 and ICLR 2025, plus new ICML 2025 and NeurIPS 2025 papers
-   Citation refresh note: Google Scholar returned an anti-bot challenge on 2026-04-22, so existing counts were retained and unavailable counts could not be refreshed.
+   - Recent highlights: Oral Presentations at ICLR 2024 and ICLR 2025, plus additional NeurIPS 2025 acceptances
+   - Citation refresh note: Google Scholar returned an anti-bot challenge during refreshes on 2026-04-22 and 2026-04-25, so existing counts were retained where live Scholar data could not be retrieved.
 
-- Preprints (Not Yet Accepted): 9 papers
+- Preprints (Not Yet Accepted): 7 papers
   - Submission period: 2016, 2025-2026
   - Focus areas: Embodied AI, agentic planning, protein foundation models, scientific code execution
   - Status: Under review or awaiting conference notifications
-   Citation refresh note: Google Scholar returned an anti-bot challenge on 2026-04-22, so existing counts were retained and unavailable counts could not be refreshed.
+   - Citation refresh note: Google Scholar returned an anti-bot challenge during refreshes on 2026-04-22 and 2026-04-25, so existing counts were retained where live Scholar data could not be retrieved.
 
 RESEARCH INTERESTS EVOLUTION:
 - Early work: NLP (2017-2018) - Shared Task, language understanding, word segmentation

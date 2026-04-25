@@ -36,6 +36,9 @@ permalink: /
 - **[Feb 2026]** "[Libero-Plus: In-Depth Robustness Analysis of Vision-Language-Action Models](https://arxiv.org/abs/2510.13626)" was accepted at CVPR 2026.
 - **[Jan 2026]** "[FASTer: Toward Efficient Autoregressive Vision Language Action Modeling via Neural Action Tokenization](https://arxiv.org/abs/2512.04952)" was accepted at ICLR 2026.
 - **[Jan 2026]** "[RoboOmni: Proactive Robot Manipulation in Omni-Modal Context](https://arxiv.org/abs/2510.23763)" was accepted at ICLR 2026.
+- **[Sep 2025]** "[ShortListing Model: A Streamlined Simplex Diffusion for Discrete Variable Generation](https://openreview.net/forum?id=ZAu7sADxfh)" was accepted at NeurIPS 2025 as a Poster.
+- **[May 2025]** "[A Periodic Bayesian Flow for Material Generation](https://openreview.net/forum?id=Lz0XW99tE0)" was accepted at ICLR 2025.
+- **[May 2025]** "[Steering Protein Family Design Through Profile Bayesian Flow](https://openreview.net/forum?id=PSiijdQjNU)" was accepted at ICLR 2025 as an Oral Presentation.
 
 ---
 
@@ -76,6 +79,14 @@ permalink: /
 4. **[Accelerating 3D Molecule Generative Models with Trajectory Diagnosis](https://openreview.net/forum?id=ATewcZPbDj)**  
   *Zhilong Zhang, Yuxuan Song, Yichun Wang, Jingjing Gong, Hanlin Wu, Dongzhan Zhou, Hao Zhou, Wei-Ying Ma*  
   NeurIPS 2025
+
+5. **[World-Aware Planning Narratives Enhance Large Vision-Language Model Planner](https://neurips.cc/virtual/2025/poster/116820)**  
+  *Junhao Shi, Zhaoye Fei, Siyin Wang, Qipeng Guo, Jingjing Gong, Xipeng Qiu*  
+  NeurIPS 2025
+
+6. **[ShortListing Model: A Streamlined Simplex Diffusion for Discrete Variable Generation](https://openreview.net/forum?id=ZAu7sADxfh)**  
+  *Yuxuan Song, Zhe Zhang, Yu Pei, Jingjing Gong, Qiying Yu, Zheng Zhang, Mingxuan Wang, Hao Zhou, Jingjing Liu, Wei-Ying Ma*  
+  NeurIPS 2025, **(Poster)**
 
 ### 2024
 
