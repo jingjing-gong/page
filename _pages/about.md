@@ -4,8 +4,39 @@ title: About me
 permalink: /
 ---
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 2em;">
-  <div style="flex: 0 0 200px; margin-right: 2em;">
+<style>
+  .about-intro {
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+  }
+
+  .about-intro-sidebar {
+    flex: 0 1 200px;
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .about-intro-main {
+    flex: 1 1 320px;
+    min-width: 0;
+  }
+
+  @media (max-width: 640px) {
+    .about-intro {
+      gap: 1.25em;
+    }
+
+    .about-intro-sidebar {
+      max-width: none;
+    }
+  }
+</style>
+
+<div class="about-intro">
+  <div class="about-intro-sidebar">
     <img src="/images/profile.jpg" alt="Jingjing Gong" style="width: 100%; border-radius: 10px; margin-bottom: 1em;">
     
     <div style="font-size: 0.9em; line-height: 1.6;">
@@ -20,7 +51,7 @@ permalink: /
       </p> -->
     </div>
   </div>
-  <div style="flex: 1;">
+  <div class="about-intro-main">
     <p>I am an Assistant Professor at the <a href="https://www.sii.edu.cn/">Shanghai Innovation Institute</a>, where my research explores the cutting edge of Embodied AI. My primary goal is to push the frontiers of multimodal large models into the physical world, bridging the gap between digital intelligence and physical interaction. My research interests span Machine Learning (ML), Reinforcement Learning (RL) and Natural Language Processing (NLP), with a particular focus on Large Language Models (LLMs). Additionally, I have a deep passion for advanced Generative Models, including Diffusion Models, Flow Matching, and Bayesian Flow Networks.</p>
     
     <p>Before joining the Institute, I was a Postdoctoral Fellow at the <a href="https://air.tsinghua.edu.cn/en/">Institute for AI Industrial Research, Tsinghua University</a>, working with <a href="https://scholar.google.com/citations?user=SToCbu8AAAAJ&hl=en">Prof. Weiying Ma</a> and <a href="https://zhouh.github.io">Prof. Hao Zhou</a>, focusing on bio-molecular generative models. I obtained my Ph.D. from <a href="http://www.fudan.edu.cn/en/">Fudan University</a>, advised by <a href="https://xpqiu.github.io/en.html">Prof. Xipeng Qiu</a> and <a href="https://xuanjing-huang.github.io">Prof. Xuanjing Huang</a>, where my work concentrated on Natural Language Processing (NLP). I have served as reviewer for top-tier conferences including <a href="https://neurips.cc">NeurIPS</a>, <a href="https://icml.cc">ICML</a>, <a href="https://iclr.cc">ICLR</a>, <a href="https://aclweb.org/">ACL</a>, <a href="https://2025.emnlp.org/">EMNLP</a> and <a href="https://aaai.org/">AAAI</a>, and was honored to serve as Area Chair for ICLR and NeurIPS.</p>
