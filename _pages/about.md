@@ -63,12 +63,11 @@ permalink: /
 ---
 
 ## News
+- **[May 2026]** "[Learning to Move Before Learning to Do: Task-Agnostic Pretraining for VLAs](https://icml.cc/virtual/2026/poster/64730)" was accepted at ICML 2026.
+- **[May 2026]** "[HiMe: Hierarchical Embodied Memory for Long-Horizon Vision-Language-Action Control](https://icml.cc/virtual/2026/poster/60897)" was accepted at ICML 2026.
 - **[Feb 2026]** "[SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models](https://arxiv.org/abs/2511.15605)" was accepted at CVPR 2026.
 - **[Feb 2026]** "[Libero-Plus: In-Depth Robustness Analysis of Vision-Language-Action Models](https://arxiv.org/abs/2510.13626)" was accepted at CVPR 2026.
 - **[Jan 2026]** "[FASTer: Toward Efficient Autoregressive Vision Language Action Modeling via Neural Action Tokenization](https://arxiv.org/abs/2512.04952)" was accepted at ICLR 2026.
-- **[Jan 2026]** "[RoboOmni: Proactive Robot Manipulation in Omni-Modal Context](https://arxiv.org/abs/2510.23763)" was accepted at ICLR 2026.
-- **[Sep 2025]** "[ShortListing Model: A Streamlined Simplex Diffusion for Discrete Variable Generation](https://openreview.net/forum?id=ZAu7sADxfh)" was accepted at NeurIPS 2025 as a Poster.
-- **[May 2025]** "[A Periodic Bayesian Flow for Material Generation](https://openreview.net/forum?id=Lz0XW99tE0)" was accepted at ICLR 2025.
 - **[May 2025]** "[Steering Protein Family Design Through Profile Bayesian Flow](https://openreview.net/forum?id=PSiijdQjNU)" was accepted at ICLR 2025 as an Oral Presentation.
 
 ---
@@ -77,19 +76,27 @@ permalink: /
 
 ### 2026
 
-1. **[Libero-Plus: In-Depth Robustness Analysis of Vision-Language-Action Models](https://arxiv.org/abs/2510.13626)**  
+1. **[HiMe: Hierarchical Embodied Memory for Long-Horizon Vision-Language-Action Control](https://icml.cc/virtual/2026/poster/60897)**  
+  *Li Ji, Siyin Wang, Pengfang Qian, Xiaopeng Yu, Yihai Tian, Zhaoye Fei, Jingjing Gong, Xipeng Qiu*  
+  ICML 2026
+
+2. **[Learning to Move Before Learning to Do: Task-Agnostic Pretraining for VLAs](https://icml.cc/virtual/2026/poster/64730)**  
+  *Junhao Shi, Siyin Wang, Xiaopeng Yu, Li Ji, Jingjing Gong, Xipeng Qiu*  
+  ICML 2026
+
+3. **[Libero-Plus: In-Depth Robustness Analysis of Vision-Language-Action Models](https://arxiv.org/abs/2510.13626)**  
   *Senyu Fei, Siyin Wang, Junhao Shi, Zihao Dai, Jikun Cai, Pengfang Qian, Li Ji, Xinzhe He, Shiduo Zhang, Zhaoye Fei, Jinlan Fu, Jingjing Gong, Xipeng Qiu*  
   CVPR 2026
 
-2. **[SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models](https://arxiv.org/abs/2511.15605)**  
+4. **[SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models](https://arxiv.org/abs/2511.15605)**  
   *Senyu Fei, Siyin Wang, Li Ji, Ao Li, Shiduo Zhang, Liming Liu, Jinlong Hou, Jingjing Gong, Xianzhong Zhao, Xipeng Qiu*  
   CVPR 2026
 
-3. **[FASTer: Toward Efficient Autoregressive Vision Language Action Modeling via Neural Action Tokenization](https://arxiv.org/abs/2512.04952)**  
+5. **[FASTer: Toward Efficient Autoregressive Vision Language Action Modeling via Neural Action Tokenization](https://arxiv.org/abs/2512.04952)**  
   *Yicheng Liu, Shiduo Zhang, Zibin Dong, Baijun Ye, Tianyuan Yuan, Xiaopeng Yu, Linqi Yin, Chenhao Lu, Junhao Shi, Luca Jiang-Tao Yu, Liangtao Zheng, Tao Jiang, Jingjing Gong, Xipeng Qiu, Hang Zhao*  
   ICLR 2026
 
-4. **[RoboOmni: Proactive Robot Manipulation in Omni-Modal Context](https://arxiv.org/abs/2510.23763)**  
+6. **[RoboOmni: Proactive Robot Manipulation in Omni-Modal Context](https://arxiv.org/abs/2510.23763)**  
   *Siyin Wang, Jinlan Fu, Feihong Liu, Xinzhe He, Huangxuan Wu, Junhao Shi, Kexin Huang, Zhaoye Fei, Jingjing Gong, Zuxuan Wu, Yu-Gang Jiang, See-Kiong Ng, Tat-Seng Chua, Xipeng Qiu*  
   ICLR 2026
 

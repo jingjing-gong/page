@@ -2,12 +2,11 @@ PUBLICATIONS AND NEWS FOR JINGJING GONG
 ========================================
 
 RECENT NEWS AND HIGHLIGHTS:
+- [May 2026] "[HiMe: Hierarchical Embodied Memory for Long-Horizon Vision-Language-Action Control](https://icml.cc/virtual/2026/poster/60897)" accepted at ICML 2026
+- [May 2026] "[Learning to Move Before Learning to Do: Task-Agnostic Pretraining for VLAs](https://icml.cc/virtual/2026/poster/64730)" accepted at ICML 2026
 - [Feb 2026] "[Libero-Plus: In-Depth Robustness Analysis of Vision-Language-Action Models](https://arxiv.org/abs/2510.13626)" accepted at CVPR 2026
 - [Feb 2026] "[SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models](https://arxiv.org/abs/2511.15605)" accepted at CVPR 2026
 - [Jan 2026] "[FASTer: Toward Efficient Autoregressive Vision Language Action Modeling via Neural Action Tokenization](https://arxiv.org/abs/2512.04952)" accepted at ICLR 2026
-- [Jan 2026] "[RoboOmni: Proactive Robot Manipulation in Omni-Modal Context](https://arxiv.org/abs/2510.23763)" accepted at ICLR 2026
-- [Sep 2025] "[ShortListing Model: A Streamlined Simplex Diffusion for Discrete Variable Generation](https://openreview.net/forum?id=ZAu7sADxfh)" accepted at NeurIPS 2025 as a Poster
-- [May 2025] "[A Periodic Bayesian Flow for Material Generation](https://openreview.net/forum?id=Lz0XW99tE0)" accepted at ICLR 2025
 - [May 2025] "[Steering Protein Family Design Through Profile Bayesian Flow](https://openreview.net/forum?id=PSiijdQjNU)" accepted at ICLR 2025 as an Oral Presentation
 
 PEER-REVIEWED PUBLICATIONS:
@@ -49,6 +48,24 @@ PEER-REVIEWED PUBLICATIONS:
    Citations: 4
    Year Published: 2026
    Focus: Multimodal robot manipulation
+
+5. **HiMe: Hierarchical Embodied Memory for Long-Horizon Vision-Language-Action Control**
+   Authors: Li Ji, Siyin Wang, Pengfang Qian, Xiaopeng Yu, Yihai Tian, Zhaoye Fei, Jingjing Gong, Xipeng Qiu
+   Link: https://icml.cc/virtual/2026/poster/60897
+   Conference: ICML 2026 (Forty-third International Conference on Machine Learning)
+   Status: ✓ ACCEPTED (Poster)
+   Citations: unavailable (new entry, not yet checked on Scholar)
+   Year Published: 2026
+   Focus: Long-horizon robot manipulation / hierarchical memory for VLAs
+
+6. **Learning to Move Before Learning to Do: Task-Agnostic Pretraining for VLAs**
+   Authors: Junhao Shi, Siyin Wang, Xiaopeng Yu, Li Ji, Jingjing Gong, Xipeng Qiu
+   Link: https://icml.cc/virtual/2026/poster/64730
+   Conference: ICML 2026 (Forty-third International Conference on Machine Learning)
+   Status: ✓ ACCEPTED (Poster)
+   Citations: unavailable (new entry, not yet checked on Scholar)
+   Year Published: 2026
+   Focus: Task-agnostic pretraining for embodied AI / VLAs
 
 ### 2025
 1. **A Periodic Bayesian Flow for Material Generation**
@@ -268,11 +285,11 @@ PREPRINTS (SUBMITTED / UNDER REVIEW):
 
 SUMMARY:
 ========
-- Total Peer-Reviewed Publications: 21 papers
+- Total Peer-Reviewed Publications: 23 papers
   - Top venues: NeurIPS, ICLR, ICML, AAAI, EMNLP, COLING, NLPCC, CVPR, Science China Information Sciences
   - Year range: 2017-2026
   - Total citations: 450+
-   - Recent highlights: Oral Presentations at ICLR 2024 and ICLR 2025, plus additional NeurIPS 2025 acceptances
+   - Recent highlights: Oral Presentations at ICLR 2024 and ICLR 2025, plus 2 ICML 2026 acceptances and additional NeurIPS 2025 acceptances
    - Citation refresh note: Google Scholar returned an anti-bot challenge during refreshes on 2026-04-22 and 2026-04-25, so existing counts were retained where live Scholar data could not be retrieved.
 
 - Preprints (Not Yet Accepted): 7 papers
