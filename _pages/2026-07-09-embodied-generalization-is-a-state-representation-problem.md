@@ -28,9 +28,11 @@ $$
 
 where $a$ is the action, $o$ is the observation, $t$ is the task specification, and $\theta$ are the policy parameters.
 
-This notation hides the core problem: the correct action often depends on more than $(o, t)$. The robot may need information that is not visually obvious, not specified in language, or not recoverable from the current policy input. Examples include object mass, friction, occluded pose, embodiment-specific dynamics, or environment-specific factors such as drawer stiffness or calibration bias. Under the strict definition used below, only the unresolved component of such factors belongs to $Z$; if some part can already be inferred from the current input, that part is not part of $Z$.
+This notation hides the core problem: the correct action often depends on more than $(o, t)$. The robot may need information that is not visually obvious, not specified in language, or not recoverable from the current policy input. Examples include object mass, friction, occluded pose, embodiment-specific dynamics, or environment-specific factors such as drawer stiffness or calibration bias.
 
-To make that explicit, let $Z$ denote the residual task-relevant information that is not inferable from the current policy input $(o, t)$. Then the actual action-generating process is better written as
+To avoid a common confusion, $Z$ in this post is not the full mass, pose, friction, or calibration variable itself. Let $X$ be the full collection of task-relevant latent factors. Some parts of $X$ may already be inferable from the current image and instruction. I use $Z$ only for the abstract residual part of $X$ that remains unresolved after conditioning on the current policy input $(o,t)$. For example, if visual cues already reveal that a mug is large, that visible component is not in $Z$; only the remaining action-relevant ambiguity, such as whether it is unexpectedly heavy, belongs there.
+
+With that convention, the actual action-generating process is better written as
 
 $$
 a^* \sim p(a \mid o, t, Z).
@@ -51,13 +53,13 @@ This has a close relation to the classical POMDP belief-state view, where the ri
 
 ## A simple formulation of the hypothesis
 
-This intuition can be stated as a residual-information claim. Let $O$, $T$, $A^*$, and $Z$ denote the corresponding random variables. In this post, $Z$ is defined as task-relevant information that cannot be inferred from the current policy input, so
+This intuition can be stated as a residual-information claim. Let $O$, $T$, $A^*$, and $Z$ denote the corresponding random variables. The point is not that the raw physical factors are statistically independent of the observation. Often they are not: the observation may partially reveal pose, size, material, or contact state. The point is that after conditioning on the current policy input, some action-relevant residual uncertainty may remain:
 
 $$
-I(Z; O, T) = 0.
+H(Z \mid O,T) > 0.
 $$
 
-The input $(O, T)$ is insufficient if the optimal action still depends on that residual information, i.e.
+The input $(O, T)$ is insufficient if the optimal action still depends on which residual hypothesis is true, i.e.
 
 $$
 I(A^*; Z \mid O, T) > 0,
@@ -85,21 +87,21 @@ $$
 \hat{\theta} = \arg\min_{\theta} \; \mathbb{E}_{(o,t,a) \sim P_{\mathrm{tr}}}\left[\ell\big(\pi_{\theta}(o,t), a\big)\right].
 $$
 
-If $Z$ is residual non-inferable state by construction, then the learned policy can only absorb its effect through the training prior $P_{\mathrm{tr}}(Z)$. In other words, ERM learns under a prior over the missing state rather than from state represented explicitly in context. The Bayes-optimal policy under the training distribution is therefore
+If $Z$ is residual state by construction, then the learned policy can only absorb its effect through the training conditional prior $P_{\mathrm{tr}}(Z \mid o,t)$. In other words, ERM learns under a prior over the missing part of the state rather than from state represented explicitly in context. The Bayes-optimal policy under the training distribution is therefore
 
 $$
 \pi^*_{\mathrm{tr}}(a \mid o, t)
-= \int p(a \mid o, t, Z) \, P_{\mathrm{tr}}(dZ).
+= \int p(a \mid o, t, Z) \, P_{\mathrm{tr}}(dZ \mid o,t).
 $$
 
-This immediately produces two failure modes, depending on what the training prior does to the missing state.
+This immediately produces two failure modes, depending on what the training conditional prior does to the missing state.
 
 ### 1) Low-diversity regime: missing state gets absorbed into $\theta$
 
-If the training prior over the missing state is narrow, then the latent state is nearly fixed under the training distribution:
+If the training conditional prior over the missing state is narrow, then the residual state is nearly fixed for each policy input under the training distribution:
 
 $$
-P_{\mathrm{tr}}(Z) \approx \delta\big(Z - Z_0\big).
+P_{\mathrm{tr}}(Z \mid o,t) \approx \delta\big(Z - Z_0\big).
 $$
 
 Then the learned policy effectively becomes
@@ -113,14 +115,14 @@ Low-diversity data does not solve the hidden-state problem; it only hides the mi
 At deployment, if
 
 $$
-P_{\mathrm{te}}(Z) \neq P_{\mathrm{tr}}(Z),
+P_{\mathrm{te}}(Z \mid o,t) \neq P_{\mathrm{tr}}(Z \mid o,t),
 $$
 
 the policy carries the wrong implicit prior over the missing state, and performance degrades.
 
 ### 2) High-diversity regime: unresolved state is exposed rather than hidden
 
-If the training prior is broad, then many different latent states remain compatible with the same $(o, t)$. In that case the ambiguity can no longer be hidden inside a narrow prior. Broad training coverage exposes the ambiguity instead of concealing it. What happens next depends on the action model.
+If the training conditional prior is broad, then many different residual states remain compatible with the same $(o, t)$. In that case the ambiguity can no longer be hidden inside a narrow prior. Broad training coverage exposes the ambiguity instead of concealing it. What happens next depends on the action model.
 
 If the policy head is deterministic or effectively unimodal under squared loss, one common failure mode is to average over incompatible action modes. For example, under squared loss the optimal predictor is
 
@@ -171,23 +173,15 @@ The cleanest evidence for this claim comes from systems whose robustness improve
 - Open X-Embodiment[^openx] made this concrete by standardizing a large cross-institution corpus with 22 robots, 21 institutions, 527 skills, and 160,266 tasks, and by showing positive transfer across platforms. The relevant point is not just scale in the abstract, but coverage over more embodiments, scenes, and control regimes.
 - OpenVLA[^openvla] is a strong direct example in this bucket: it trains on 970k real-world demonstrations and reports strong multi-embodiment generalization, outperforming RT-2-X by 16.5% absolute task success across 29 tasks and multiple robot embodiments.
 - BridgeData V2[^bridgev2] and DROID[^droid] sharpen the environment side of the argument. BridgeData V2 was explicitly collected to support broad generalization across tasks, objects, and environments. DROID adds 76k trajectories, 350 hours, 564 scenes, and 86 tasks, and reports that co-training with DROID improves average success by 22% in-distribution and 17% OOD over the next best comparison. This matters because deployment failures often come from state factors that were simply absent from narrow lab data.
-- Again, $\pi_{0.5}$[^pi05] gives direct supporting evidence: its ablations argue that web data matters most for OOD object generalization, while multi-environment and cross-embodiment robot data are important across evaluation conditions. Its scaling study further shows that performance rises steadily with the number of distinct training environments and approaches a baseline trained directly on test environments after roughly 100 homes.
+- Again, $\pi_{0.5}$[^pi05] gives direct supporting evidence: its ablations argue that web data matters most for OOD object generalization, while multi-environment and cross-embodiment robot data are important across evaluation conditions. Its scaling study further shows that performance rises steadily with the number of distinct training environments and approaches a baseline trained directly on test environments after scaling to 104 training locations.
 
 Taken together, these results support the second prediction: if deployment spans residual variation that training never covered, then the policy can only succeed by relying on brittle hidden assumptions in its parameters. Broader training data helps precisely because it weakens those assumptions by forcing the policy to survive more embodiments, scenes, object sets, and control regimes.
 
 A related but narrower line includes RoboCat, Octo, and Dobb-E.[^robocat][^octo][^dobbe] These are not the cleanest evidence for out-of-the-box fixed-policy generalization. They support a different claim: when broad heterogeneous experience does not fully solve the residual-state problem, it can still make downstream adaptation to a new robot or home much lighter, because the model starts from a prior that has already seen more of the relevant variation.
 
-### 3) Why out-of-the-box deployment does not refute the hypothesis
-
-$\pi_{0.5}$[^pi05] is useful precisely because it looks, at first glance, like a counterexample. One might read its new-home deployment results as evidence against the claim that current models overfit hidden assumptions. But under the current hypothesis, it should be read as support, not contradiction: success can occur when the training recipe both shrinks the residual that remains outside the policy context and broadens coverage over the variation that still remains. This is a different claim from the adaptation-heavy evidence above: here the point is fixed-policy deployment under shift, not merely faster finetuning.
-
-- If a model can deploy out of the box in a new home, that does not mean residual task-critical information has become irrelevant.
-- It suggests the training recipe gave the model enough semantic, visual, and cross-environment evidence that less task-critical information remained outside the policy context at test time.
-- In that sense, out-of-the-box success is not a refutation of the hypothesis. It is the kind of outcome the hypothesis predicts when the residual becomes smaller and when the prior over what remains is broad enough to survive shift.[^pi05]
-
 ### Prediction 3: residual uncertainty needs expressive action models
 
-Even if richer context and broader coverage are the first two levers, they do not make residual uncertainty disappear. Some latent factors will remain partially or temporarily unresolved at decision time, especially under contact, occlusion, embodiment mismatch, or limited sensing. In that regime the action model still matters, because the policy must act under uncertainty rather than pretend the hidden state has already been identified.
+Even if richer context and broader coverage are the first two levers, they do not make residual uncertainty disappear, *for example the language instruction in VLAs will always be ambiguous and lead to a stochastic action*. Some latent factors will remain partially or temporarily unresolved at decision time, especially under contact, occlusion, embodiment mismatch, or limited sensing. In that regime the action model still matters, because the policy must act under uncertainty rather than pretend the hidden state has already been identified.
 
 The evidence here is more indirect than in the previous two sections, but there are still concrete results worth noting:
 
@@ -230,19 +224,14 @@ This is intentionally different from the earlier $Z$. There, $Z$ was defined rel
 
 This is also the lens under which several modern latent-state methods become relevant. DVRL[^dvrl] explicitly learns belief-like latent representations for POMDP control. PlaNet[^planet] and Dreamer[^dreamer] learn latent dynamics models from high-dimensional observations and plan or optimize behavior in that latent state space. UP-OSI[^uposi] and VariBAD[^varibad] are especially relevant to the present argument because they infer hidden dynamics or task variables online instead of forcing the policy to bury those factors inside a fixed parameter prior.
 
-This view suggests six concrete design commitments:
+This view suggests three concrete design commitments:
 
 1. Rich state evidence as context: use temporal observation windows, multi-view sensing where possible, and persistent memory features instead of single-frame policies, so that the architecture can actually consume scene state, physical parameters, and task context when they matter.
 
-2. Explicit embodiment conditioning: provide robot metadata and action-space adapters so one policy can map shared intent into embodiment-specific commands.
+2. Broad and balanced data mixture: mix cross-embodiment datasets with scene diversity, so coverage grows across tasks, environments, and robot morphologies, then rebalance to avoid dominance by a few easy domains. Web-scale pretraining can also help as a source of generic priors.
 
-3. Broad and balanced data mixture: mix cross-embodiment datasets (Open X style) with in-the-wild scene diversity (DROID/Bridge style), so coverage grows across tasks, environments, and robot morphologies, then rebalance to avoid dominance by a few easy domains.
+3. Uncertainty-aware action head: after enriching the information state and broadening coverage, use action modeling that handles multimodality and residual ambiguity, such as diffusion- or flow-matching-style heads, when precision and recovery matter.
 
-4. Two-stage training: Stage A is broad pretraining for transferable representations. Stage B is targeted adaptation for deployment embodiments and control stacks.
-
-5. Uncertainty-aware action head: after enriching the information state and broadening coverage, use action modeling that handles multimodality and residual ambiguity, such as diffusion- or flow-matching-style heads, when precision and recovery matter.
-
-6. Evaluation by shift axes, not only aggregate score: report separately on unseen objects, unseen layouts, unseen embodiments, and long-horizon composition, since real generalization must be measured across task, environment, and embodiment shift.
 
 ## Final view
 
@@ -251,6 +240,20 @@ To build a truly generalizable embodied model, the first two requirements are cl
 If the correct action still depends on residual task-critical information after conditioning on $(o, t)$, then generalization cannot be solved by scale alone. The central question is how much necessary information remains outside the policy context and how much still has to be supplied by fixed assumptions in the parameters. A robust policy must either expose more of that information through context, or explicitly represent uncertainty over what still remains hidden.
 
 That, to me, is the real lesson of recent VLAs: progress comes not just from bigger models, but first from shrinking the residual task-critical information that must be carried by hardcoded assumptions and broadening coverage over whatever residual still remains, and then, when ambiguity is unavoidable, from refusing to collapse it into a single brittle action.
+
+
+## Citation
+
+```bibtex
+@misc{gong2026beyondscale,
+  author = {Gong, Jingjing},
+  title = {Beyond Scale: Embodied Generalization Is a State Representation Problem},
+  year = {2026},
+  month = {June},
+  url = {https://jjgong.com/2026-07-09-embodied-generalization-is-a-state-representation-problem/},
+  note = {Blog post}
+}
+```
 
 
 References
@@ -282,7 +285,7 @@ References
 
 [^pi0]: Kevin Black et al. "$\pi_0$: A Vision-Language-Action Flow Model for General Robot Control". arXiv 2024 / RSS 2025. https://arxiv.org/abs/2410.24164
 
-[^pi05]: Physical Intelligence. "$\pi_{0.5}$: a VLA with Open-World Generalization". 2025. https://www.pi.website/blog/pi05
+[^pi05]: Kevin Black et al. "$\pi_{0.5}$: A Vision-Language-Action Model with Open-World Generalization". CoRL 2025 / PMLR 2025. https://proceedings.mlr.press/v305/black25a.html
 
 [^bridgev2]: BridgeData V2 project page and paper resources. https://bridgedata-v2.github.io/
 
