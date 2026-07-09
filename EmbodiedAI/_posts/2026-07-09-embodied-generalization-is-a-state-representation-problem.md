@@ -239,8 +239,6 @@ To build a truly generalizable embodied model, the first two requirements are cl
 
 If the correct action still depends on residual task-critical information after conditioning on $(o, t)$, then generalization cannot be solved by scale alone. The central question is how much necessary information remains outside the policy context and how much still has to be supplied by fixed assumptions in the parameters. A robust policy must either expose more of that information through context, or explicitly represent uncertainty over what still remains hidden.
 
-That, to me, is the real lesson of recent VLAs: progress comes not just from bigger models, but first from shrinking the residual task-critical information that must be carried by hardcoded assumptions and broadening coverage over whatever residual still remains, and then, when ambiguity is unavoidable, from refusing to collapse it into a single brittle action.
-
 
 ## Citation
 
