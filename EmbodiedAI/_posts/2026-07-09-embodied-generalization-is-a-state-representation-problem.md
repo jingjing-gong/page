@@ -249,7 +249,7 @@ That, to me, is the real lesson of recent VLAs: progress comes not just from big
   author = {Gong, Jingjing},
   title = {Beyond Scale: Embodied Generalization Is a State Representation Problem},
   year = {2026},
-  month = {June},
+  month = {July},
   url = {https://jjgong.com/2026-07-09-embodied-generalization-is-a-state-representation-problem/},
   note = {Blog post}
 }
