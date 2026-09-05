@@ -52,7 +52,7 @@ permalink: /
     </div>
   </div>
   <div class="about-intro-main">
-    <p>I am an Assistant Professor at the <a href="https://www.sii.edu.cn/">Shanghai Innovation Institute</a>, where my research explores the cutting edge of Embodied AI. My primary goal is to push the frontiers of multimodal large models into the physical world, bridging the gap between digital intelligence and physical interaction. My research interests span Machine Learning (ML), Reinforcement Learning (RL) and Natural Language Processing (NLP), with a particular focus on Large Language Models (LLMs). Additionally, I have a deep passion for advanced Generative Models, including Diffusion Models, Flow Matching, and Bayesian Flow Networks.</p>
+    <p>I am an Assistant Professor at the <a href="https://www.sii.edu.cn/">Shanghai Innovation Institute</a>, where my research explores the cutting edge of Embodied AI. My primary goal is to push the frontiers of multimodal large models into the physical world, bridging the gap between digital intelligence and physical interaction. My research interests span Machine Learning (ML), Reinforcement Learning (RL) and Natural Language Processing (NLP), with a particular focus on Large Language Models (LLMs). Additionally, I have a deep passion for advanced Generative Models, including Diffusion Models, Flow Matching, and Bayesian Flow Networks. My current work focuses especially on cross-embodiment, cross-scenario, and compositional generalization in embodied models, as well as the development and evolution of embodied agent systems.</p>
     
     <p>Before joining the Institute, I was a Postdoctoral Fellow at the <a href="https://air.tsinghua.edu.cn/en/">Institute for AI Industrial Research, Tsinghua University</a>, working with <a href="https://scholar.google.com/citations?user=SToCbu8AAAAJ&hl=en">Prof. Weiying Ma</a> and <a href="https://zhouh.github.io">Prof. Hao Zhou</a>, focusing on bio-molecular generative models. I obtained my Ph.D. from <a href="http://www.fudan.edu.cn/en/">Fudan University</a>, advised by <a href="https://xpqiu.github.io/en.html">Prof. Xipeng Qiu</a> and <a href="https://xuanjing-huang.github.io">Prof. Xuanjing Huang</a>, where my work concentrated on Natural Language Processing (NLP). I have served as reviewer for top-tier conferences including <a href="https://neurips.cc">NeurIPS</a>, <a href="https://icml.cc">ICML</a>, <a href="https://iclr.cc">ICLR</a>, <a href="https://aclweb.org/">ACL</a>, <a href="https://2025.emnlp.org/">EMNLP</a> and <a href="https://aaai.org/">AAAI</a>, and was honored to serve as Area Chair for ICLR and NeurIPS.</p>
     
@@ -63,11 +63,14 @@ permalink: /
 ---
 
 ## News
+- **[Sep 2026]** "[CoRE-VLA: Towards Scalable and Robust Vision-Language-Action Modeling via Conditional Routing of Experts](https://openreview.net/forum?id=qKU6lifnPU)" was accepted at CoRL 2026.
+- **[Sep 2026]** "[Coarse-to-Control: Action-Token Planning for Vision-Language-Action Models](https://openreview.net/forum?id=tegLlXBRCU)" was accepted at CoRL 2026.
+- **[Sep 2026]** "[ActionCodec: What Makes for Good Action Tokenizers](https://openreview.net/forum?id=wRLEgpRnVR)" was accepted at CoRL 2026.
 - **[May 2026]** "[Learning to Move Before Learning to Do: Task-Agnostic Pretraining for VLAs](https://icml.cc/virtual/2026/poster/64730)" was accepted at ICML 2026.
 - **[May 2026]** "[HiMe: Hierarchical Embodied Memory for Long-Horizon Vision-Language-Action Control](https://icml.cc/virtual/2026/poster/60897)" was accepted at ICML 2026.
-- **[Feb 2026]** "[SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models](https://arxiv.org/abs/2511.15605)" was accepted at CVPR 2026.
-- **[Feb 2026]** "[Libero-Plus: In-Depth Robustness Analysis of Vision-Language-Action Models](https://arxiv.org/abs/2510.13626)" was accepted at CVPR 2026.
-- **[Jan 2026]** "[FASTer: Toward Efficient Autoregressive Vision Language Action Modeling via Neural Action Tokenization](https://arxiv.org/abs/2512.04952)" was accepted at ICLR 2026.
+- **[Feb 2026]** "[SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models](https://openaccess.thecvf.com/content/CVPR2026/html/Fei_SRPO_Self-Referential_Policy_Optimization_for_Vision-Language-Action_Models_CVPR_2026_paper.html)" was accepted at CVPR 2026.
+- **[Feb 2026]** "[Libero-Plus: A Progressive Robustness Benchmark for Vision-Language-Action Models](https://openaccess.thecvf.com/content/CVPR2026/html/Fei_LIBERO-Plus_A_Progressive_Robustness_Benchmark_for_Visual-Language-Action_Models_CVPR_2026_paper.html)" was accepted at CVPR 2026.
+- **[Jan 2026]** "[FASTer: Toward Powerful and Efficient Autoregressive Vision–Language–Action Models with Learnable Action Tokenizer and Block-wise Decoding](https://openreview.net/forum?id=k6nTUFoqeT)" was accepted at ICLR 2026.
 - **[May 2025]** "[Steering Protein Family Design Through Profile Bayesian Flow](https://openreview.net/forum?id=PSiijdQjNU)" was accepted at ICLR 2025 as an Oral Presentation.
 
 ---
@@ -76,28 +79,40 @@ permalink: /
 
 ### 2026
 
-1. **[HiMe: Hierarchical Embodied Memory for Long-Horizon Vision-Language-Action Control](https://icml.cc/virtual/2026/poster/60897)**  
-  *Li Ji, Siyin Wang, Pengfang Qian, Xiaopeng Yu, Yihai Tian, Zhaoye Fei, Jingjing Gong, Xipeng Qiu*  
+1. **[CoRE-VLA: Towards Scalable and Robust Vision-Language-Action Modeling via Conditional Routing of Experts](https://openreview.net/forum?id=qKU6lifnPU)**<br>
+  *Haozhe Zhang, Sixian Li, Yifei Zhang, Zezheng Huai, Hao Chen, Chunhua Shen, Jingjing Gong, Xipeng Qiu*<br>
+  CoRL 2026
+
+2. **[Coarse-to-Control: Action-Token Planning for Vision-Language-Action Models](https://openreview.net/forum?id=tegLlXBRCU)**<br>
+  *Jinhao Wu, Shiduo Zhang, Yicheng Liu, Xiaopeng Yu, Sixian Li, Siyin Wang, Hang Zhao, Jingjing Gong, Xipeng Qiu*<br>
+  CoRL 2026
+
+3. **[ActionCodec: What Makes for Good Action Tokenizers](https://openreview.net/forum?id=wRLEgpRnVR)**<br>
+  *Zibin Dong, Yicheng Liu, Shiduo Zhang, Baijun Ye, Yifu Yuan, Fei Ni, Jingjing Gong, Xipeng Qiu, Hang Zhao, Yinchuan Li, Jianye Hao*<br>
+  CoRL 2026
+
+4. **[HiMe: Hierarchical Embodied Memory for Long-Horizon Vision-Language-Action Control](https://icml.cc/virtual/2026/poster/60897)**<br>
+  *Li Ji, Siyin Wang, Pengfang Qian, Xiaopeng Yu, Yihai Tian, Zhaoye Fei, Jingjing Gong, Xipeng Qiu*<br>
   ICML 2026
 
-2. **[Learning to Move Before Learning to Do: Task-Agnostic Pretraining for VLAs](https://icml.cc/virtual/2026/poster/64730)**  
-  *Junhao Shi, Siyin Wang, Xiaopeng Yu, Li Ji, Jingjing Gong, Xipeng Qiu*  
+5. **[Learning to Move Before Learning to Do: Task-Agnostic Pretraining for VLAs](https://icml.cc/virtual/2026/poster/64730)**<br>
+  *Junhao Shi, Siyin Wang, Xiaopeng Yu, Li Ji, Jingjing Gong, Xipeng Qiu*<br>
   ICML 2026
 
-3. **[Libero-Plus: In-Depth Robustness Analysis of Vision-Language-Action Models](https://arxiv.org/abs/2510.13626)**  
-  *Senyu Fei, Siyin Wang, Junhao Shi, Zihao Dai, Jikun Cai, Pengfang Qian, Li Ji, Xinzhe He, Shiduo Zhang, Zhaoye Fei, Jinlan Fu, Jingjing Gong, Xipeng Qiu*  
+6. **[Libero-Plus: A Progressive Robustness Benchmark for Vision-Language-Action Models](https://openaccess.thecvf.com/content/CVPR2026/html/Fei_LIBERO-Plus_A_Progressive_Robustness_Benchmark_for_Visual-Language-Action_Models_CVPR_2026_paper.html)**<br>
+  *Senyu Fei, Siyin Wang, Junhao Shi, Zihao Dai, Jikun Cai, Pengfang Qian, Li Ji, Xinzhe He, Shiduo Zhang, Zhaoye Fei, Jinlan Fu, Jingjing Gong, Xipeng Qiu*<br>
   CVPR 2026
 
-4. **[SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models](https://arxiv.org/abs/2511.15605)**  
-  *Senyu Fei, Siyin Wang, Li Ji, Ao Li, Shiduo Zhang, Liming Liu, Jinlong Hou, Jingjing Gong, Xianzhong Zhao, Xipeng Qiu*  
+7. **[SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models](https://openaccess.thecvf.com/content/CVPR2026/html/Fei_SRPO_Self-Referential_Policy_Optimization_for_Vision-Language-Action_Models_CVPR_2026_paper.html)**<br>
+  *Senyu Fei, Siyin Wang, Li Ji, Ao Li, Shiduo Zhang, Liming Liu, Jinlong Hou, Jingjing Gong, Xianzhong Zhao, Xipeng Qiu*<br>
   CVPR 2026
 
-5. **[FASTer: Toward Efficient Autoregressive Vision Language Action Modeling via Neural Action Tokenization](https://arxiv.org/abs/2512.04952)**  
-  *Yicheng Liu, Shiduo Zhang, Zibin Dong, Baijun Ye, Tianyuan Yuan, Xiaopeng Yu, Linqi Yin, Chenhao Lu, Junhao Shi, Luca Jiang-Tao Yu, Liangtao Zheng, Tao Jiang, Jingjing Gong, Xipeng Qiu, Hang Zhao*  
+8. **[FASTer: Toward Powerful and Efficient Autoregressive Vision–Language–Action Models with Learnable Action Tokenizer and Block-wise Decoding](https://openreview.net/forum?id=k6nTUFoqeT)**<br>
+  *Yicheng Liu, Shiduo Zhang, Zibin Dong, Baijun Ye, Tianyuan Yuan, Xiaopeng Yu, Linqi Yin, Chenhao Lu, Junhao Shi, Luca Jiang-Tao Yu, Liangtao Zheng, Jingjing Gong, Tao Jiang, Xipeng Qiu, Hang Zhao*<br>
   ICLR 2026
 
-6. **[RoboOmni: Proactive Robot Manipulation in Omni-Modal Context](https://arxiv.org/abs/2510.23763)**  
-  *Siyin Wang, Jinlan Fu, Feihong Liu, Xinzhe He, Huangxuan Wu, Junhao Shi, Kexin Huang, Zhaoye Fei, Jingjing Gong, Zuxuan Wu, Yu-Gang Jiang, See-Kiong Ng, Tat-Seng Chua, Xipeng Qiu*  
+9. **[RoboOmni: Proactive Robot Manipulation in Omni-Modal Context](https://arxiv.org/abs/2510.23763)**<br>
+  *Siyin Wang, Jinlan Fu, Feihong Liu, Xinzhe He, Huangxuan Wu, Junhao Shi, Kexin Huang, Zhaoye Fei, Jingjing Gong, Zuxuan Wu, Yu-Gang Jiang, See-Kiong Ng, Tat-Seng Chua, Xipeng Qiu*<br>
   ICLR 2026
 
 ### 2025
@@ -145,6 +160,3 @@ permalink: /
 2. **[Coarse-to-Fine: A Hierarchical Diffusion Model for Molecule Generation in 3D](https://proceedings.mlr.press/v202/qiang23a.html)**  
   *Bo Qiang, Yuxuan Song, Minkai Xu, Jingjing Gong, Bowen Gao, Hao Zhou, Wei-Ying Ma, Yanyan Lan*  
   ICML 2023
-
-
-

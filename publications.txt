@@ -2,38 +2,41 @@ PUBLICATIONS AND NEWS FOR JINGJING GONG
 ========================================
 
 RECENT NEWS AND HIGHLIGHTS:
+- [Sep 2026] "[CoRE-VLA: Towards Scalable and Robust Vision-Language-Action Modeling via Conditional Routing of Experts](https://openreview.net/forum?id=qKU6lifnPU)" accepted at CoRL 2026
+- [Sep 2026] "[Coarse-to-Control: Action-Token Planning for Vision-Language-Action Models](https://openreview.net/forum?id=tegLlXBRCU)" accepted at CoRL 2026
+- [Sep 2026] "[ActionCodec: What Makes for Good Action Tokenizers](https://openreview.net/forum?id=wRLEgpRnVR)" accepted at CoRL 2026
 - [May 2026] "[HiMe: Hierarchical Embodied Memory for Long-Horizon Vision-Language-Action Control](https://icml.cc/virtual/2026/poster/60897)" accepted at ICML 2026
 - [May 2026] "[Learning to Move Before Learning to Do: Task-Agnostic Pretraining for VLAs](https://icml.cc/virtual/2026/poster/64730)" accepted at ICML 2026
-- [Feb 2026] "[Libero-Plus: In-Depth Robustness Analysis of Vision-Language-Action Models](https://arxiv.org/abs/2510.13626)" accepted at CVPR 2026
-- [Feb 2026] "[SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models](https://arxiv.org/abs/2511.15605)" accepted at CVPR 2026
-- [Jan 2026] "[FASTer: Toward Efficient Autoregressive Vision Language Action Modeling via Neural Action Tokenization](https://arxiv.org/abs/2512.04952)" accepted at ICLR 2026
+- [Feb 2026] "[Libero-Plus: A Progressive Robustness Benchmark for Vision-Language-Action Models](https://openaccess.thecvf.com/content/CVPR2026/html/Fei_LIBERO-Plus_A_Progressive_Robustness_Benchmark_for_Visual-Language-Action_Models_CVPR_2026_paper.html)" accepted at CVPR 2026
+- [Feb 2026] "[SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models](https://openaccess.thecvf.com/content/CVPR2026/html/Fei_SRPO_Self-Referential_Policy_Optimization_for_Vision-Language-Action_Models_CVPR_2026_paper.html)" accepted at CVPR 2026
+- [Jan 2026] "[FASTer: Toward Powerful and Efficient Autoregressive Vision–Language–Action Models with Learnable Action Tokenizer and Block-wise Decoding](https://openreview.net/forum?id=k6nTUFoqeT)" accepted at ICLR 2026
 - [May 2025] "[Steering Protein Family Design Through Profile Bayesian Flow](https://openreview.net/forum?id=PSiijdQjNU)" accepted at ICLR 2025 as an Oral Presentation
 
 PEER-REVIEWED PUBLICATIONS:
 ==========================
 
 ### 2026
-1. **Libero-Plus: In-Depth Robustness Analysis of Vision-Language-Action Models**
+1. **Libero-Plus: A Progressive Robustness Benchmark for Vision-Language-Action Models**
    Authors: Senyu Fei, Siyin Wang, Junhao Shi, Zihao Dai, Jikun Cai, Pengfang Qian, Li Ji, Xinzhe He, Shiduo Zhang, Zhaoye Fei, Jinlan Fu, Jingjing Gong, Xipeng Qiu
-   Link: https://arxiv.org/abs/2510.13626
+   Link: https://openaccess.thecvf.com/content/CVPR2026/html/Fei_LIBERO-Plus_A_Progressive_Robustness_Benchmark_for_Visual-Language-Action_Models_CVPR_2026_paper.html
    Conference: CVPR 2026 (IEEE/CVF Conference on Computer Vision and Pattern Recognition)
    Status: ✓ ACCEPTED
-   Citations: 49
+   Citations: 20
    Year Published: 2026
    Focus: Robustness of embodied AI models
 
 2. **SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models**
    Authors: Senyu Fei, Siyin Wang, Li Ji, Ao Li, Shiduo Zhang, Liming Liu, Jinlong Hou, Jingjing Gong, Xianzhong Zhao, Xipeng Qiu
-   Link: https://arxiv.org/abs/2511.15605
+   Link: https://openaccess.thecvf.com/content/CVPR2026/html/Fei_SRPO_Self-Referential_Policy_Optimization_for_Vision-Language-Action_Models_CVPR_2026_paper.html
    Conference: CVPR 2026 (IEEE/CVF Conference on Computer Vision and Pattern Recognition)
    Status: ✓ ACCEPTED
-   Citations: 7
+   Citations: 18
    Year Published: 2026
    Focus: Embodied AI / Reinforcement Learning
 
-3. **FASTer: Toward Efficient Autoregressive Vision Language Action Modeling via Neural Action Tokenization**
-   Authors: Yicheng Liu, Shiduo Zhang, Zibin Dong, Baijun Ye, Tianyuan Yuan, Xiaopeng Yu, Linqi Yin, Chenhao Lu, Junhao Shi, Luca Jiang-Tao Yu, Liangtao Zheng, Tao Jiang, Jingjing Gong, Xipeng Qiu, Hang Zhao
-   Link: https://arxiv.org/abs/2512.04952
+3. **FASTer: Toward Powerful and Efficient Autoregressive Vision–Language–Action Models with Learnable Action Tokenizer and Block-wise Decoding**
+   Authors: Yicheng Liu, Shiduo Zhang, Zibin Dong, Baijun Ye, Tianyuan Yuan, Xiaopeng Yu, Linqi Yin, Chenhao Lu, Junhao Shi, Luca Jiang-Tao Yu, Liangtao Zheng, Jingjing Gong, Tao Jiang, Xipeng Qiu, Hang Zhao
+   Link: https://openreview.net/forum?id=k6nTUFoqeT
    Conference: ICLR 2026 (The Fourteenth International Conference on Learning Representations)
    Status: ✓ ACCEPTED
    Citations: 6
@@ -45,7 +48,7 @@ PEER-REVIEWED PUBLICATIONS:
    Link: https://arxiv.org/abs/2510.23763
    Conference: ICLR 2026 (The Fourteenth International Conference on Learning Representations)
    Status: ✓ ACCEPTED
-   Citations: 4
+   Citations: 10
    Year Published: 2026
    Focus: Multimodal robot manipulation
 
@@ -54,7 +57,7 @@ PEER-REVIEWED PUBLICATIONS:
    Link: https://icml.cc/virtual/2026/poster/60897
    Conference: ICML 2026 (Forty-third International Conference on Machine Learning)
    Status: ✓ ACCEPTED (Poster)
-   Citations: unavailable (new entry, not yet checked on Scholar)
+   Citations: 1
    Year Published: 2026
    Focus: Long-horizon robot manipulation / hierarchical memory for VLAs
 
@@ -63,9 +66,36 @@ PEER-REVIEWED PUBLICATIONS:
    Link: https://icml.cc/virtual/2026/poster/64730
    Conference: ICML 2026 (Forty-third International Conference on Machine Learning)
    Status: ✓ ACCEPTED (Poster)
-   Citations: unavailable (new entry, not yet checked on Scholar)
+   Citations: 0
    Year Published: 2026
    Focus: Task-agnostic pretraining for embodied AI / VLAs
+
+7. **CoRE-VLA: Towards Scalable and Robust Vision-Language-Action Modeling via Conditional Routing of Experts**
+   Authors: Haozhe Zhang, Sixian Li, Yifei Zhang, Zezheng Huai, Hao Chen, Chunhua Shen, Jingjing Gong, Xipeng Qiu
+   Link: https://openreview.net/forum?id=qKU6lifnPU
+   Conference: CoRL 2026 (10th Annual Conference on Robot Learning)
+   Status: ✓ ACCEPTED
+   Citations: 1
+   Year Published: 2026
+   Focus: Cross-embodiment VLA modeling via conditional routing of experts
+
+8. **Coarse-to-Control: Action-Token Planning for Vision-Language-Action Models**
+   Authors: Jinhao Wu, Shiduo Zhang, Yicheng Liu, Xiaopeng Yu, Sixian Li, Siyin Wang, Hang Zhao, Jingjing Gong, Xipeng Qiu
+   Link: https://openreview.net/forum?id=tegLlXBRCU
+   Conference: CoRL 2026 (10th Annual Conference on Robot Learning)
+   Status: ✓ ACCEPTED
+   Citations: 0
+   Year Published: 2026
+   Focus: Action-token planning for VLAs
+
+9. **ActionCodec: What Makes for Good Action Tokenizers**
+   Authors: Zibin Dong, Yicheng Liu, Shiduo Zhang, Baijun Ye, Yifu Yuan, Fei Ni, Jingjing Gong, Xipeng Qiu, Hang Zhao, Yinchuan Li, Jianye Hao
+   Link: https://openreview.net/forum?id=wRLEgpRnVR
+   Conference: CoRL 2026 (10th Annual Conference on Robot Learning)
+   Status: ✓ ACCEPTED
+   Citations: 13
+   Year Published: 2026
+   Focus: Action tokenization for embodied models
 
 ### 2025
 1. **A Periodic Bayesian Flow for Material Generation**
@@ -73,7 +103,7 @@ PEER-REVIEWED PUBLICATIONS:
    Link: https://openreview.net/forum?id=Lz0XW99tE0
    Conference: ICLR 2025 (The Thirteenth International Conference on Learning Representations)
    Status: ✓ ACCEPTED
-   Citations: 13
+   Citations: 25
    Year Published: 2025
    Focus: Material science / Generative models
 
@@ -99,7 +129,7 @@ PEER-REVIEWED PUBLICATIONS:
    Link: https://openreview.net/forum?id=ATewcZPbDj
    Conference: NeurIPS 2025 (The Thirty-ninth Annual Conference on Neural Information Processing Systems)
    Status: ✓ ACCEPTED
-   Citations: unavailable (Google Scholar blocked during refresh on 2026-04-22)
+   Citations: 1
    Year Published: 2025
 
 5. **World-Aware Planning Narratives Enhance Large Vision-Language Model Planner**
@@ -107,7 +137,7 @@ PEER-REVIEWED PUBLICATIONS:
    Link: https://neurips.cc/virtual/2025/poster/116820
    Conference: NeurIPS 2025 (The Thirty-ninth Annual Conference on Neural Information Processing Systems)
    Status: ✓ ACCEPTED
-   Citations: 4
+   Citations: 5
    Year Published: 2025
    Focus: Vision-language planning
 
@@ -116,7 +146,7 @@ PEER-REVIEWED PUBLICATIONS:
    Link: https://openreview.net/forum?id=ZAu7sADxfh
    Conference: NeurIPS 2025 (The Thirty-ninth Annual Conference on Neural Information Processing Systems)
    Status: ✓ ACCEPTED (Poster)
-   Citations: 2 (existing count retained; Google Scholar blocked during refresh on 2026-04-25)
+   Citations: 2
    Year Published: 2025
    Focus: Discrete generative modeling
 
@@ -126,7 +156,7 @@ PEER-REVIEWED PUBLICATIONS:
    Link: https://proceedings.mlr.press/v235/qu24a.html
    Conference: ICML 2024 (International Conference on Machine Learning)
    Status: ✓ ACCEPTED
-   Citations: 73
+   Citations: 92
    Year Published: 2024
    Focus: Structure-based drug design
 
@@ -135,7 +165,7 @@ PEER-REVIEWED PUBLICATIONS:
    Link: https://arxiv.org/abs/2403.15441
    Conference: ICLR 2024 (The Twelfth International Conference on Learning Representations)
    Status: ✓ ACCEPTED (Oral Presentation)
-   Citations: 62
+   Citations: 71
    Year Published: 2024
 
 ### 2023
@@ -144,7 +174,7 @@ PEER-REVIEWED PUBLICATIONS:
    Link: http://papers.nips.cc/paper_files/paper/2023/hash/01d64478381c33e29ed611f1719f5a37-Abstract-Conference.html
    Conference: NeurIPS 2023 (Advances in Neural Information Processing Systems 36, pages 549-568)
    Status: ✓ ACCEPTED
-   Citations: 126
+   Citations: 157
    Year Published: 2023
 
 2. **Coarse-to-Fine: A Hierarchical Diffusion Model for Molecule Generation in 3D**
@@ -152,7 +182,7 @@ PEER-REVIEWED PUBLICATIONS:
    Link: https://proceedings.mlr.press/v202/qiang23a.html
    Conference: ICML 2023 (International Conference on Machine Learning, pages 28277-28299)
    Status: ✓ ACCEPTED
-   Citations: 46
+   Citations: 54
    Year Published: 2023
 
 ### 2021
@@ -178,7 +208,7 @@ PEER-REVIEWED PUBLICATIONS:
    Link: https://doi.org/10.1609/aaai.v33i01.33016457
    Conference: AAAI 2019 (Proceedings of the AAAI Conference on Artificial Intelligence 33(01), pages 6457-6464)
    Status: ✓ ACCEPTED
-   Citations: 42
+   Citations: 43
    Year Published: 2019
 
 ### 2018
@@ -187,7 +217,7 @@ PEER-REVIEWED PUBLICATIONS:
    Link: https://aclanthology.org/C18-1232/
    Conference: COLING 2018 (Proceedings of the 27th International Conference on Computational Linguistics)
    Status: ✓ ACCEPTED
-   Citations: 82
+   Citations: 83
    Year Published: 2018
 
 2. **Transferring from Formal Newswire Domain with HyperNet for Twitter POS Tagging**
@@ -195,7 +225,7 @@ PEER-REVIEWED PUBLICATIONS:
    Link: https://doi.org/10.18653/v1/D18-1275
    Conference: EMNLP 2018 (Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing)
    Status: ✓ ACCEPTED
-   Citations: 26
+   Citations: 31
    Year Published: 2018
 
 3. **Convolutional Interaction Network for Natural Language Inference**
@@ -203,7 +233,7 @@ PEER-REVIEWED PUBLICATIONS:
    Link: https://doi.org/10.18653/v1/D18-1186
    Conference: EMNLP 2018 (Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing)
    Status: ✓ ACCEPTED
-   Citations: 22
+   Citations: 23
    Year Published: 2018
 
 ### 2017
@@ -212,7 +242,7 @@ PEER-REVIEWED PUBLICATIONS:
    Link: https://doi.org/10.1007/978-3-319-73618-1_85
    Conference: NLPCC 2017 (National CCF Conference on Natural Language Processing and Chinese Computing)
    Status: ✓ ACCEPTED (Shared Task Overview)
-   Citations: 17
+   Citations: 19
    Year Published: 2017
 
 PREPRINTS (SUBMITTED / UNDER REVIEW):
@@ -224,7 +254,7 @@ PREPRINTS (SUBMITTED / UNDER REVIEW):
    Link: https://arxiv.org/abs/2608.03924
    Type: arXiv Preprint (arXiv:2608.03924)
    Status: Preprint / Under Review
-   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
+   Citations: 0
    Year: 2026
    Focus: Agentic embodied task solving
 
@@ -233,106 +263,79 @@ PREPRINTS (SUBMITTED / UNDER REVIEW):
    Link: https://arxiv.org/abs/2607.29613
    Type: arXiv Preprint (arXiv:2607.29613)
    Status: Preprint / Under Review
-   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
+   Citations: 0
    Year: 2026
    Focus: World-model critics for VLA reinforcement learning
 
-3. **CoRE-VLA: Towards Scalable and Robust Vision-Language-Action Modeling via Conditional Routing of Experts**
-   Authors: Haozhe Zhang, Sixian Li, Yifei Zhang, Zezheng Huai, Hao Chen, Chunhua Shen, Jingjing Gong, Xipeng Qiu
-   Link: https://arxiv.org/abs/2607.03693
-   Type: arXiv Preprint (arXiv:2607.03693)
-   Status: Preprint / Under Review
-   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
-   Year: 2026
-   Focus: Scalable and robust VLA modeling
-
-4. **Advancing Omnimodal Embodied Agents from Isolated Skills to Everyday Physical Autonomy**
+3. **Advancing Omnimodal Embodied Agents from Isolated Skills to Everyday Physical Autonomy**
    Authors: Junhao Shi, Zezheng Huai, Siyin Wang, Jia Chen, Yubang Wang, Zhaoye Fei, Hechang Chen, Jingjing Gong, Xipeng Qiu, Yu-Gang Jiang
    Link: https://arxiv.org/abs/2606.27251
    Type: arXiv Preprint (arXiv:2606.27251)
    Status: Preprint / Under Review
-   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
+   Citations: 0
    Year: 2026
    Focus: Omnimodal embodied agents and physical autonomy
 
-5. **In-Context World Modeling for Robotic Control**
+4. **In-Context World Modeling for Robotic Control**
    Authors: Siyin Wang, Junhao Shi, Senyu Fei, Zhaoyang Fu, Li Ji, Jingjing Gong, Xipeng Qiu
    Link: https://arxiv.org/abs/2606.26025
    Type: arXiv Preprint (arXiv:2606.26025)
    Status: Preprint / Under Review
-   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
+   Citations: 0
    Year: 2026
    Focus: In-context world modeling for robot control
 
-6. **Two Bridges, One Pathway: From VLMs to Generalizable VLAs with Embodied Trajectory-Coupled Data**
+5. **Two Bridges, One Pathway: From VLMs to Generalizable VLAs with Embodied Trajectory-Coupled Data**
    Authors: Linqi Yin, Shiduo Zhang, Shenling Qiu, Chenxin Li, Zhaoyang Fu, Lei Xiao, Xiang Wang, Chenchen Yang, Zhe Xu, Pengfang Qian, Jingjing Gong, Xipeng Qiu, Xuanjing Huang, Yu-Gang Jiang
    Link: https://arxiv.org/abs/2606.08520
    Type: arXiv Preprint (arXiv:2606.08520)
    Status: Preprint / Under Review
-   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
+   Citations: 0
    Year: 2026
    Focus: Trajectory-coupled data for generalizable VLAs
 
-7. **Coarse-to-Control: Action-Token Planning for Vision-Language-Action Models**
-   Authors: Jinhao Wu, Shiduo Zhang, Yicheng Liu, Xiaopeng Yu, Sixian Li, Siyin Wang, Hang Zhao, Jing Huo, Yang Gao, Jingjing Gong, Xipeng Qiu, Yu-Gang Jiang
-   Link: https://arxiv.org/abs/2606.07107
-   Type: arXiv Preprint (arXiv:2606.07107)
-   Status: Preprint / Under Review
-   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
-   Year: 2026
-   Focus: Action-token planning for VLAs
-
-8. **Let It Be Simple: One-Step Action Generation for Vision-Language-Action Models**
+6. **Let It Be Simple: One-Step Action Generation for Vision-Language-Action Models**
    Authors: Yitong Chen, Shiduo Zhang, Jingjing Gong, Xipeng Qiu
    Link: https://arxiv.org/abs/2606.05737
    Type: arXiv Preprint (arXiv:2606.05737)
    Status: Preprint / Under Review
-   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
+   Citations: 1
    Year: 2026
    Focus: One-step action generation for VLAs
 
-9. **World Action Models: The Next Frontier in Embodied AI**
+7. **World Action Models: The Next Frontier in Embodied AI**
    Authors: Siyin Wang, Junhao Shi, Zhaoyang Fu, Xinzhe He, Feihong Liu, Chenchen Yang, Yikang Zhou, Zhaoye Fei, Jingjing Gong, Jinlan Fu, Mike Zheng Shou, Xuanjing Huang, Xipeng Qiu, Yu-Gang Jiang
    Link: https://arxiv.org/abs/2605.12090
    Type: arXiv Preprint (arXiv:2605.12090)
    Status: Preprint / Under Review
-   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
+   Citations: 26
    Year: 2026
    Focus: World action models for embodied AI
 
-10. **ResearchEnvBench: Benchmarking Agents on Environment Synthesis for Research Code Execution**
+8. **ResearchEnvBench: Benchmarking Agents on Environment Synthesis for Research Code Execution**
    Authors: Yubang Wang, Chenxi Zhang, Bowen Chen, Zezheng Huai, Zihao Dai, Xinchi Chen, Yuxin Wang, Yining Zheng, Jingjing Gong, Xipeng Qiu
    Link: https://arxiv.org/abs/2603.06739
    Type: arXiv Preprint (arXiv:2603.06739)
    Status: Preprint / Under Review
-   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
+   Citations: 0
    Year: 2026
    Focus: Agent benchmarking for research code execution
 
-11. **ActionCodec: What Makes for Good Action Tokenizers**
-   Authors: Zibin Dong, Yicheng Liu, Shiduo Zhang, Baijun Ye, Yifu Yuan, Fei Ni, Jingjing Gong, Xipeng Qiu, Hang Zhao, Yinchuan Li, Jianye Hao
-   Link: https://arxiv.org/abs/2602.15397
-   Type: arXiv Preprint (arXiv:2602.15397)
-   Status: Preprint / Under Review
-   Citations: 1 (existing count retained; Google Scholar blocked during refresh on 2026-08-29)
-   Year: 2026
-   Focus: Action tokenization for embodied models
-
-12. **FRoM-W1: Towards General Humanoid Whole-Body Control with Language Instructions**
+9. **FRoM-W1: Towards General Humanoid Whole-Body Control with Language Instructions**
    Authors: Peng Li, Zihan Zhuang, Yangfan Gao, Yi Dong, Sixian Li, Changhao Jiang, Shihan Dou, Zhiheng Xi, Enyu Zhou, Jixuan Huang, Hui Li, Jingjing Gong, Xingjun Ma, Tao Gui, Zuxuan Wu, Qi Zhang, Xuanjing Huang, Yu-Gang Jiang, Xipeng Qiu
    Link: https://arxiv.org/abs/2601.12799
    Type: arXiv Preprint (arXiv:2601.12799)
    Status: Preprint / Under Review
-   Citations: 2 (existing count retained; Google Scholar blocked during refresh on 2026-08-29)
+   Citations: 8
    Year: 2026
    Focus: Humanoid whole-body control
 
-13. **AstroReason-Bench: Evaluating Unified Agentic Planning across Heterogeneous Space Planning Problems**
+10. **AstroReason-Bench: Evaluating Unified Agentic Planning across Heterogeneous Space Planning Problems**
    Authors: Weiyi Wang, Xinchi Chen, Jingjing Gong, Xuanjing Huang, Xipeng Qiu
    Link: https://arxiv.org/abs/2601.11354
    Type: arXiv Preprint (arXiv:2601.11354)
    Status: Preprint / Under Review
-   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
+   Citations: 0
    Year: 2026
    Focus: Agentic planning for space-domain tasks
 
@@ -342,7 +345,7 @@ PREPRINTS (SUBMITTED / UNDER REVIEW):
    Link: https://arxiv.org/abs/2506.23127
    Type: arXiv Preprint (arXiv:2506.23127)
    Status: Preprint / Under Review
-   Citations: 7 (existing count retained; Google Scholar blocked during refresh on 2026-08-29)
+   Citations: 13
    Year: 2025
    Focus: Large Language Models for embodied planning
 
@@ -351,7 +354,7 @@ PREPRINTS (SUBMITTED / UNDER REVIEW):
    Link: https://arxiv.org/abs/2507.08920
    Type: arXiv Preprint (arXiv:2507.08920)
    Status: Preprint / Under Review
-   Citations: 3 (existing count retained; Google Scholar blocked during refresh on 2026-08-29)
+   Citations: 2
    Year: 2025
    Focus: Protein foundation models
 
@@ -361,23 +364,23 @@ PREPRINTS (SUBMITTED / UNDER REVIEW):
    Link: https://arxiv.org/abs/1611.04953
    Type: arXiv Preprint (arXiv:1611.04953)
    Status: Preprint (not yet accepted to conference)
-   Citations: 69 (existing count retained; Google Scholar blocked during refresh on 2026-08-29)
+   Citations: 68
    Year: 2016
 
 SUMMARY:
 ========
-- Total Peer-Reviewed Publications: 23 papers
-  - Top venues: NeurIPS, ICLR, ICML, AAAI, EMNLP, COLING, NLPCC, CVPR, Science China Information Sciences
+- Total Peer-Reviewed Publications: 26 papers
+  - Top venues: NeurIPS, ICLR, ICML, CoRL, AAAI, EMNLP, COLING, NLPCC, CVPR, Science China Information Sciences
   - Year range: 2017-2026
-  - Total citations: at least 640 across peer-reviewed entries with numeric staged counts
-  - Recent highlights: Oral Presentations at ICLR 2024 and ICLR 2025, plus 2 ICML 2026 acceptances and additional NeurIPS 2025 acceptances
-  - Citation refresh note: Google Scholar returned an anti-bot challenge on 2026-08-29, so existing counts were retained and new entries are marked unavailable.
+  - Total citations: 734 across peer-reviewed entries using current staged Google Scholar counts
+  - Recent highlights: 3 CoRL 2026 acceptances, 2 ICML 2026 acceptances, and Oral Presentations at ICLR 2024 and ICLR 2025
+  - Citation refresh note: Google Scholar counts were refreshed on 2026-09-05; duplicate preprint, accepted, workshop, and retitled records were not double-counted.
 
-- Preprints (Not Yet Accepted): 16 papers
+- Preprints (Not Yet Accepted): 13 papers
   - Submission period: 2016, 2025-2026
   - Focus areas: Embodied AI, vision-language-action models, world modeling, agentic planning, protein foundation models, scientific code execution
   - Status: Under review or awaiting conference notifications
-  - Citation refresh note: Google Scholar returned an anti-bot challenge on 2026-08-29, so existing counts were retained and new entries are marked unavailable.
+  - Citation refresh note: Google Scholar counts were refreshed on 2026-09-05; Scholar entries without a cited-by value are recorded as 0.
 
 RESEARCH INTERESTS EVOLUTION:
 - Early work: NLP (2017-2018) - Shared Task, language understanding, word segmentation
