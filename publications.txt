@@ -219,39 +219,120 @@ PREPRINTS (SUBMITTED / UNDER REVIEW):
 ====================================
 
 ### 2026
-1. **FRoM-W1: Towards General Humanoid Whole-Body Control with Language Instructions**
-   Authors: P Li, Z Zhuang, Y Gao, Y Dong, S Li, C Jiang, S Dou, Z Xi, E Zhou, ...
-   Link: https://arxiv.org/abs/2601.12799
-   Type: arXiv Preprint (arXiv:2601.12799)
+1. **ETA: A New Agentic Paradigm for Embodied Tasks**
+   Authors: Yitong Chen, Zezheng Huai, Sixian Li, Yubang Wang, Haozhe Zhang, Yifei Zhang, Hechang Chen, Jingjing Gong, Yu-Gang Jiang, Xipeng Qiu
+   Link: https://arxiv.org/abs/2608.03924
+   Type: arXiv Preprint (arXiv:2608.03924)
    Status: Preprint / Under Review
-   Citations: 2
+   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
    Year: 2026
-   Focus: Humanoid whole-body control
+   Focus: Agentic embodied task solving
 
-2. **ActionCodec: What Makes for Good Action Tokenizers**
-   Authors: Z Dong, Y Liu, S Zhang, B Ye, Y Yuan, F Ni, J Gong, X Qiu, H Zhao, Y Li, ...
-   Link: https://arxiv.org/abs/2602.15397
-   Type: arXiv Preprint (arXiv:2602.15397)
+2. **WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning**
+   Authors: Senyu Fei, Xiaopeng Yu, Siyin Wang, Xianzhong Zhao, Jingjing Gong, Xipeng Qiu
+   Link: https://arxiv.org/abs/2607.29613
+   Type: arXiv Preprint (arXiv:2607.29613)
    Status: Preprint / Under Review
-   Citations: 1
+   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
    Year: 2026
-   Focus: Action tokenization for embodied models
+   Focus: World-model critics for VLA reinforcement learning
 
-3. **ResearchEnvBench: Benchmarking Agents on Environment Synthesis for Research Code Execution**
-   Authors: Y Wang, C Zhang, B Chen, Z Huai, Z Dai, X Chen, Y Wang, Y Zheng, ...
+3. **CoRE-VLA: Towards Scalable and Robust Vision-Language-Action Modeling via Conditional Routing of Experts**
+   Authors: Haozhe Zhang, Sixian Li, Yifei Zhang, Zezheng Huai, Hao Chen, Chunhua Shen, Jingjing Gong, Xipeng Qiu
+   Link: https://arxiv.org/abs/2607.03693
+   Type: arXiv Preprint (arXiv:2607.03693)
+   Status: Preprint / Under Review
+   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
+   Year: 2026
+   Focus: Scalable and robust VLA modeling
+
+4. **Advancing Omnimodal Embodied Agents from Isolated Skills to Everyday Physical Autonomy**
+   Authors: Junhao Shi, Zezheng Huai, Siyin Wang, Jia Chen, Yubang Wang, Zhaoye Fei, Hechang Chen, Jingjing Gong, Xipeng Qiu, Yu-Gang Jiang
+   Link: https://arxiv.org/abs/2606.27251
+   Type: arXiv Preprint (arXiv:2606.27251)
+   Status: Preprint / Under Review
+   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
+   Year: 2026
+   Focus: Omnimodal embodied agents and physical autonomy
+
+5. **In-Context World Modeling for Robotic Control**
+   Authors: Siyin Wang, Junhao Shi, Senyu Fei, Zhaoyang Fu, Li Ji, Jingjing Gong, Xipeng Qiu
+   Link: https://arxiv.org/abs/2606.26025
+   Type: arXiv Preprint (arXiv:2606.26025)
+   Status: Preprint / Under Review
+   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
+   Year: 2026
+   Focus: In-context world modeling for robot control
+
+6. **Two Bridges, One Pathway: From VLMs to Generalizable VLAs with Embodied Trajectory-Coupled Data**
+   Authors: Linqi Yin, Shiduo Zhang, Shenling Qiu, Chenxin Li, Zhaoyang Fu, Lei Xiao, Xiang Wang, Chenchen Yang, Zhe Xu, Pengfang Qian, Jingjing Gong, Xipeng Qiu, Xuanjing Huang, Yu-Gang Jiang
+   Link: https://arxiv.org/abs/2606.08520
+   Type: arXiv Preprint (arXiv:2606.08520)
+   Status: Preprint / Under Review
+   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
+   Year: 2026
+   Focus: Trajectory-coupled data for generalizable VLAs
+
+7. **Coarse-to-Control: Action-Token Planning for Vision-Language-Action Models**
+   Authors: Jinhao Wu, Shiduo Zhang, Yicheng Liu, Xiaopeng Yu, Sixian Li, Siyin Wang, Hang Zhao, Jing Huo, Yang Gao, Jingjing Gong, Xipeng Qiu, Yu-Gang Jiang
+   Link: https://arxiv.org/abs/2606.07107
+   Type: arXiv Preprint (arXiv:2606.07107)
+   Status: Preprint / Under Review
+   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
+   Year: 2026
+   Focus: Action-token planning for VLAs
+
+8. **Let It Be Simple: One-Step Action Generation for Vision-Language-Action Models**
+   Authors: Yitong Chen, Shiduo Zhang, Jingjing Gong, Xipeng Qiu
+   Link: https://arxiv.org/abs/2606.05737
+   Type: arXiv Preprint (arXiv:2606.05737)
+   Status: Preprint / Under Review
+   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
+   Year: 2026
+   Focus: One-step action generation for VLAs
+
+9. **World Action Models: The Next Frontier in Embodied AI**
+   Authors: Siyin Wang, Junhao Shi, Zhaoyang Fu, Xinzhe He, Feihong Liu, Chenchen Yang, Yikang Zhou, Zhaoye Fei, Jingjing Gong, Jinlan Fu, Mike Zheng Shou, Xuanjing Huang, Xipeng Qiu, Yu-Gang Jiang
+   Link: https://arxiv.org/abs/2605.12090
+   Type: arXiv Preprint (arXiv:2605.12090)
+   Status: Preprint / Under Review
+   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
+   Year: 2026
+   Focus: World action models for embodied AI
+
+10. **ResearchEnvBench: Benchmarking Agents on Environment Synthesis for Research Code Execution**
+   Authors: Yubang Wang, Chenxi Zhang, Bowen Chen, Zezheng Huai, Zihao Dai, Xinchi Chen, Yuxin Wang, Yining Zheng, Jingjing Gong, Xipeng Qiu
    Link: https://arxiv.org/abs/2603.06739
    Type: arXiv Preprint (arXiv:2603.06739)
    Status: Preprint / Under Review
-   Citations: unavailable (Google Scholar blocked during refresh on 2026-04-22)
+   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
    Year: 2026
    Focus: Agent benchmarking for research code execution
 
-4. **AstroReason-Bench: Evaluating Unified Agentic Planning across Heterogeneous Space Planning Problems**
+11. **ActionCodec: What Makes for Good Action Tokenizers**
+   Authors: Zibin Dong, Yicheng Liu, Shiduo Zhang, Baijun Ye, Yifu Yuan, Fei Ni, Jingjing Gong, Xipeng Qiu, Hang Zhao, Yinchuan Li, Jianye Hao
+   Link: https://arxiv.org/abs/2602.15397
+   Type: arXiv Preprint (arXiv:2602.15397)
+   Status: Preprint / Under Review
+   Citations: 1 (existing count retained; Google Scholar blocked during refresh on 2026-08-29)
+   Year: 2026
+   Focus: Action tokenization for embodied models
+
+12. **FRoM-W1: Towards General Humanoid Whole-Body Control with Language Instructions**
+   Authors: Peng Li, Zihan Zhuang, Yangfan Gao, Yi Dong, Sixian Li, Changhao Jiang, Shihan Dou, Zhiheng Xi, Enyu Zhou, Jixuan Huang, Hui Li, Jingjing Gong, Xingjun Ma, Tao Gui, Zuxuan Wu, Qi Zhang, Xuanjing Huang, Yu-Gang Jiang, Xipeng Qiu
+   Link: https://arxiv.org/abs/2601.12799
+   Type: arXiv Preprint (arXiv:2601.12799)
+   Status: Preprint / Under Review
+   Citations: 2 (existing count retained; Google Scholar blocked during refresh on 2026-08-29)
+   Year: 2026
+   Focus: Humanoid whole-body control
+
+13. **AstroReason-Bench: Evaluating Unified Agentic Planning across Heterogeneous Space Planning Problems**
    Authors: Weiyi Wang, Xinchi Chen, Jingjing Gong, Xuanjing Huang, Xipeng Qiu
    Link: https://arxiv.org/abs/2601.11354
    Type: arXiv Preprint (arXiv:2601.11354)
    Status: Preprint / Under Review
-   Citations: unavailable (Google Scholar blocked during refresh on 2026-04-22)
+   Citations: unavailable (Google Scholar blocked during refresh on 2026-08-29)
    Year: 2026
    Focus: Agentic planning for space-domain tasks
 
@@ -261,16 +342,16 @@ PREPRINTS (SUBMITTED / UNDER REVIEW):
    Link: https://arxiv.org/abs/2506.23127
    Type: arXiv Preprint (arXiv:2506.23127)
    Status: Preprint / Under Review
-   Citations: 7
+   Citations: 7 (existing count retained; Google Scholar blocked during refresh on 2026-08-29)
    Year: 2025
    Focus: Large Language Models for embodied planning
 
-2. **Amix-1: A Pathway to Test-Time Scalable Protein Foundation Model**
-   Authors: C Lv, J Zhou, S Long, L Wang, J Feng, D Xue, Y Pei, H Wang, Z Zhang, ...
+2. **AMix-1: A Pathway to Test-Time Scalable Protein Foundation Model**
+   Authors: Changze Lv, Jiang Zhou, Siyu Long, Lihao Wang, Jiangtao Feng, Dongyu Xue, Yu Pei, Hao Wang, Zherui Zhang, Yuchen Cai, Zhiqiang Gao, Ziyuan Ma, Jiakai Hu, Chaochen Gao, Jingjing Gong, Yuxuan Song, Shuyi Zhang, Xiaoqing Zheng, Deyi Xiong, Lei Bai, Wanli Ouyang, Ya-Qin Zhang, Wei-Ying Ma, Bowen Zhou, Hao Zhou
    Link: https://arxiv.org/abs/2507.08920
    Type: arXiv Preprint (arXiv:2507.08920)
    Status: Preprint / Under Review
-   Citations: 3
+   Citations: 3 (existing count retained; Google Scholar blocked during refresh on 2026-08-29)
    Year: 2025
    Focus: Protein foundation models
 
@@ -280,7 +361,7 @@ PREPRINTS (SUBMITTED / UNDER REVIEW):
    Link: https://arxiv.org/abs/1611.04953
    Type: arXiv Preprint (arXiv:1611.04953)
    Status: Preprint (not yet accepted to conference)
-   Citations: 69
+   Citations: 69 (existing count retained; Google Scholar blocked during refresh on 2026-08-29)
    Year: 2016
 
 SUMMARY:
@@ -288,18 +369,18 @@ SUMMARY:
 - Total Peer-Reviewed Publications: 23 papers
   - Top venues: NeurIPS, ICLR, ICML, AAAI, EMNLP, COLING, NLPCC, CVPR, Science China Information Sciences
   - Year range: 2017-2026
-  - Total citations: 450+
-   - Recent highlights: Oral Presentations at ICLR 2024 and ICLR 2025, plus 2 ICML 2026 acceptances and additional NeurIPS 2025 acceptances
-   - Citation refresh note: Google Scholar returned an anti-bot challenge during refreshes on 2026-04-22 and 2026-04-25, so existing counts were retained where live Scholar data could not be retrieved.
+  - Total citations: at least 640 across peer-reviewed entries with numeric staged counts
+  - Recent highlights: Oral Presentations at ICLR 2024 and ICLR 2025, plus 2 ICML 2026 acceptances and additional NeurIPS 2025 acceptances
+  - Citation refresh note: Google Scholar returned an anti-bot challenge on 2026-08-29, so existing counts were retained and new entries are marked unavailable.
 
-- Preprints (Not Yet Accepted): 7 papers
+- Preprints (Not Yet Accepted): 16 papers
   - Submission period: 2016, 2025-2026
-  - Focus areas: Embodied AI, agentic planning, protein foundation models, scientific code execution
+  - Focus areas: Embodied AI, vision-language-action models, world modeling, agentic planning, protein foundation models, scientific code execution
   - Status: Under review or awaiting conference notifications
-   - Citation refresh note: Google Scholar returned an anti-bot challenge during refreshes on 2026-04-22 and 2026-04-25, so existing counts were retained where live Scholar data could not be retrieved.
+  - Citation refresh note: Google Scholar returned an anti-bot challenge on 2026-08-29, so existing counts were retained and new entries are marked unavailable.
 
 RESEARCH INTERESTS EVOLUTION:
 - Early work: NLP (2017-2018) - Shared Task, language understanding, word segmentation
 - Mid-career: Recurrent architectures & transfer learning (2018-2019)
 - Recent focus: Generative models for science (2023-2024) - Molecular design, flow matching
-- Current: Embodied AI & multi-modal learning (2024-2025) - Robot manipulation, vision-language models
+- Current: Embodied AI & multi-modal learning (2024-2026) - Robot manipulation, vision-language-action models, world models
